@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { LiveComponent } from './components/live/live.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LiveComponent
   ],
   imports: [
     BrowserModule
