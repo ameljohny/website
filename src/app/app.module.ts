@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { LiveComponent } from './components/live/live.component';
 import { NavHorizontalComponent } from './components/nav-horizontal/nav-horizontal.component';
 import { NavVerticalComponent } from './components/nav-vertical/nav-vertical.component';
+import { AccordionComponent } from './components/accordion/accordion.component';
+import { LandingpageComponent } from './components/landingpage/landingpage.component';
 
 
 @NgModule({
@@ -13,8 +15,10 @@ import { NavVerticalComponent } from './components/nav-vertical/nav-vertical.com
     AppComponent,
     LiveComponent,
     NavHorizontalComponent,
-    NavVerticalComponent
-  ],
+    NavVerticalComponent,
+    AccordionComponent,
+    LandingpageComponent
+],
   imports: [
     BrowserModule
   ],
