@@ -8,6 +8,8 @@ import { NavHorizontalComponent } from './components/nav-horizontal/nav-horizont
 import { NavVerticalComponent } from './components/nav-vertical/nav-vertical.component';
 import { AccordionComponent } from './components/accordion/accordion.component';
 import { LandingpageComponent } from './components/landingpage/landingpage.component';
+import { CounterComponent } from './components/counter/counter.component';
+
 
 
 @NgModule({
@@ -17,8 +19,9 @@ import { LandingpageComponent } from './components/landingpage/landingpage.compo
     NavHorizontalComponent,
     NavVerticalComponent,
     AccordionComponent,
-    LandingpageComponent
-],
+    LandingpageComponent,
+    CounterComponent
+  ],
   imports: [
     BrowserModule
   ],
