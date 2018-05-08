@@ -1,61 +1,89 @@
 .container{
   height: 100vh;
   width: 100vw;
-}
-.leftcontainer{
-  text-align: center;
-  margin-bottom: 25px;
+  margin:0px;
+  padding: 0px;
+  background:#262635;
 
 }
-.livecontainer{
-  height: 500px;;
-  background-image: -owg-linear-gradient(#16cbf5, #1c83cc);
+
+.container1{
+  height:60%;
+  width:100%;
+  margin:0px ;
+  padding:20px 30px;
+}
+
+.countdown{
+  width:100%;
+  height:30%;
+  content:"";
+  /*background-image: -owg-linear-gradient(#16cbf5, #1c83cc);
   background-image: -webkit-linear-gradient(#16cbf5, #1c83cc);
   background-image: -moz-linear-gradient(#16cbf5, #1c83cc);
   background-image: -o-linear-gradient(#16cbf5, #1c83cc);
-  background-image: linear-gradient(#16cbf5, #1c83cc);
+  background-image: linear-gradient(#16cbf5, #1c83cc);*/
+  background-color:red;
+  /*background-image: url(assets/927a62a1105ed6798676f2a1cf058b23.gif)*/;
+  background-repeat:repeat
+  ;
+
 }
 
-.leftcontainer p{
-  font-family: 'Jura';
+
+.ln{
+  height:100%;
+  margin:0px;
+  color:#636363;
+  
 }
 
-.rightcontainer{
-  content: "";
-  height: 500px;
-  margin-bottom: 25px;
-}
-.rightincontainer{
-  content: "";
-  height: 100%;
-  width: 100%;
-  /* background-image: -owg-linear-gradient(#16cbf5, #1c83cc);
-  background-image: -webkit-linear-gradient(#16cbf5, #1c83cc);
-  background-image: -moz-linear-gradient(#16cbf5, #1c83cc);
-  background-image: -o-linear-gradient(#16cbf5, #1c83cc);
-  background-image: linear-gradient(#16cbf5, #1c83cc); */
-}
-.newsfeedscontainer{
-  padding: 0 0 5px;
-  height: 60%;
- }
+
 .newsfeeds{
- height: 100%;
+ margin:0px;
+ padding:0px;
+ height: 75%;
+ overflow-y:scroll;
+ background-color:#f4f4f5;
 }
-.newsfeeds h3{
-  margin-top:0px;
-  font-family: Raleway;
-  font-weight: 800;
-  border-bottom:1px solid #d4d4d4;
+
+h3{
+  padding:10px;
+  margin:0px;
+  width:100%;
+  font-size:18px;
+  color:#848484;
+  font-family: Roboto;
+  font-weight: 400;
   display: inline-block;
+  text-align:right;
+  height: 100%;
 }
+
+h5{
+  margin:0px;
+}
+
 .feeds{
-  border-left: 5px solid #1c83cc;
-  padding-left: 10px;
-  margin-bottom: 20px;
-  border-radius: 5px;
+  width:100%;
+  font-family: Raleway;
+  border-bottom: 1px solid #dbdbdb;
+  padding:10px 15px;
+  margin:0px;
+  transition: .1s linear 0s;
+/*  border-radius: 3px;*/
 }
-.gallerycontainer{
+
+.feeds p{
+  font-family:Raleway;
+  margin:5px;
+  padding:0px;
+  font-size:.9em;
+  font-weight: lighter;
+}
+
+
+/*.gallerycontainer{
   padding: 0px 40px;
   height: 40%;
   overflow: hidden;
@@ -92,4 +120,295 @@
 .gallerycontainer:hover span,
 .gallerycontainer:focus span {
   display: block;
+}*/
+
+
+
+.feeds:hover{
+  border-bottom: 2px solid rgba(7,197,245,1);
+  background-color: #fdfdfd;
+  
+
 }
+
+.nf{
+  margin:0px;
+  padding:10px;
+  color:white;
+  border-bottom: 3px solid #ef4959;
+  text-align:center;
+  background-color: #15151e;
+
+}
+.bottomdiv{
+  width:100%;
+  position: absolute;
+  bottom:0px;
+  height:100px;
+  background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); 
+}
+
+
+
+.gallery h1{
+
+  font-size:6vw;
+  color:white;
+  text-align:center;
+  padding-top:30%;
+  opacity:.8;
+  margin:0px;
+  text-shadow: 1px 1px 5px black;
+  transition: all 0.5s ease;
+}
+
+
+.scrollicon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+
+}
+
+.container12{
+  position:relative;
+  width: 20px;
+  height: 24px;
+}
+
+.chevron {
+  position: absolute;
+  width: 28px;
+  height: 8px;
+  opacity: 0;
+  transform: scale3d(0.5, 0.5, 0.5);
+  animation: move 3s ease-out infinite;
+}
+
+.chevron:first-child {
+  animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+  animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 51%;
+  background: #fff;
+}
+
+.chevron:before {
+  left: 0;
+  transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+  right: 0;
+  width: 50%;
+  transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+  25% {
+    opacity: 1;
+
+  }
+  33% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+  67% {
+    opacity: 1;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+  }
+}
+
+.text {
+  display: block;
+  margin-top: 75px;
+  margin-left: -30px;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: .25;
+  animation: pulse 2s linear alternate infinite;
+}
+
+@keyframes pulse {
+  to {
+    opacity: 1;
+  }
+}
+
+.rmln{
+  width:100%;
+  padding:15px;
+  font-size: 16px;
+  font-family: roboto;
+  text-align:center;
+  background-color: #222234;
+  margin:0px;
+  color:#636378;
+  transition:.3s ease-in 0s;
+  border-bottom: 3px solid #403f72;
+  }
+
+
+  .rmln:hover{
+    background-color:#15151e;
+    color:rgba(7,197,245,1);
+    border-bottom: 3px solid #ef4959;
+    border-bottom-right-radius:80%;
+}
+
+.galbutt{
+  width:100px;
+  height:45px;
+  font-size:1em;
+  font-family:jura;
+  background-color: rgba(0,0,0,.8);
+  border:2px solid #34e8ef;
+  border-radius:30px;
+  color:#e8e8e8;
+  margin-left:35%;
+}
+
+
+
+.gallery{
+  margin:0px ;
+  content: "";
+  width:100%;
+  height:70%;
+  background-color: red;
+  font-family: Roboto;
+  font-size:1.5em;
+  background-size:auto 100%;
+  background-position: center;
+  transition: all 0.5s ease;
+  background-image: url('assets/Nehru-Trophy-Boat-Race.jpg');
+  
+
+}
+
+.rightcons{ 
+  height:100%; 
+  padding-top:0px;
+
+}
+
+
+.gallery:hover{
+  background-size:auto 125%;
+  cursor:pointer; 
+}
+
+
+.bknw{
+
+  height:100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3em;
+  color: #444;
+  /*background: linear-gradient(60deg, #12131c, #383f5c);*/
+  line-height: 1.5;
+
+}
+
+
+hr {
+  width: 100%;
+  margin: 1.5em 0;
+  border: 0;
+  border-bottom: 1px dashed #ccc;
+}
+
+.hr--invisible {
+  border-bottom-color: transparent;
+}
+
+/* Boarding Pass */
+.boardingPass {
+  width:100%;
+  box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+/* Section */
+/** Label **/
+.section-label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #919191;
+}
+
+/** Icon **/
+.boardingPass-icon {
+  flex-grow: .5;
+  color: #f03f55;
+}
+
+/* Header */
+.boardingPass-header {
+  padding: .5em 2em;
+  background: linear-gradient(60deg, #ea122d, #f46e7f);
+  border-radius: inherit;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  color: #fff;
+}
+
+
+
+/* Main */
+.boardingPass-main {
+  margin:0px;
+  padding: 2em;
+  background: #fff;
+}
+
+.boardingPass-departur-IATA,
+.boardingPass-arrival-IATA {
+  display: inline-block;
+  line-height: 1;
+  font-size: 4rem;
+}
+
+.boardingPass-transport {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.dg{
+  display:inline-block;
+  width:45%;
+ 
+  
+}
+
+.row{
+  padding: 0px 10px;
+}
+
