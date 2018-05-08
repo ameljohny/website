@@ -10,7 +10,6 @@ export class AccordionComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    
     const header = document.getElementById('accordion');
     const tabs = header.getElementsByClassName('tabs');
     for (let i = 0; i < tabs.length; i++) {
