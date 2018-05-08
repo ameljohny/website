@@ -10,13 +10,14 @@ export class AccordionComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
     const header = document.getElementById('accordion');
     const tabs = header.getElementsByClassName('tabs');
     for (let i = 0; i < tabs.length; i++) {
     tabs[i].addEventListener('mouseover', function() {
-    const current = document.getElementsByClassName('col-md-4');
-    current[0].className = current[0].className.replace('active col-lg-4 col-md-4', 'col-lg-2 col-md-2');
-    this.className = this.className.replace('col-lg-2 col-md-2', 'active col-lg-4 col-md-4');
+    const current = document.getElementsByClassName('col-md-5');
+    current[0].className = current[0].className.replace('active col-lg-5 col-md-5', 'col-lg-1 col-md-1');
+    this.className = this.className.replace('col-lg-1 col-md-1', 'active col-lg-5 col-md-5');
     });
   }
   }
