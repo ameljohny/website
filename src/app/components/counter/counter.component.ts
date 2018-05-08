@@ -13,6 +13,9 @@ declare var moment;
             let clock;
            // Grab the current date
             const currentDate = new Date();
+            moment.tz.add('Asia/Calcutta|HMT BURT IST IST|-5R.k -6u -5u -6u|01232|-18LFR.k 1unn.k HB0 7zX0');
+            moment.tz.link('Asia/Calcutta|Asia/Kolkata');
+
            // Target future date/24 hour time/Timezone.
             const targetDate = moment.tz('2018-08-11 10:00', 'Asia/Calcutta|Asia/Kolkata');
             // Calculate the difference in seconds between the future and current date
