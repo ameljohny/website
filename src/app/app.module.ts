@@ -9,6 +9,7 @@ import { NavVerticalComponent } from './components/nav-vertical/nav-vertical.com
 import { AccordionComponent } from './components/accordion/accordion.component';
 import { LandingpageComponent } from './components/landingpage/landingpage.component';
 import { CounterComponent } from './components/counter/counter.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
 
 
 
@@ -20,7 +21,8 @@ import { CounterComponent } from './components/counter/counter.component';
     NavVerticalComponent,
     AccordionComponent,
     LandingpageComponent,
-    CounterComponent
+    CounterComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule

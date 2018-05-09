@@ -14,11 +14,16 @@ export class AppComponent implements OnInit  {
     const divs = $('.mydiv');
       let dir = 'up';
       let div = 0;
+     let isScrollable = true;
+
+
       $(document.body).on('wheel', function (e) {
+
           {if (e.originalEvent.detail > 0 || e.originalEvent.wheelDelta < 0) {
               dir = 'down';
           } else {
               dir = 'up';
+             // isScrollable = false;
             }  // div = -1;
         //     divs.each(function(i) {
         //       if (div < 0 && ($(this).offset().top >= $(window).scrollTop())) {
@@ -26,20 +31,36 @@ export class AppComponent implements OnInit  {
         //       }
         //   });
           if (dir === 'up' && div > 0) {
-             div--;
+              if ( isScrollable ) {
+                div--;
+              }
+
           }
           if (dir === 'down' && div < divs.length) {
-              div++;
+              if ( isScrollable ) {
+                div++;
+              }
           }
+
          // if ( div) {
            //   x = 1;
          // }
-           $('html,body').stop().animate({
-              scrollTop: divs.eq(div).offset().top
-          }, 1000);
+         if (isScrollable) {
+            $('html,body').stop().animate({
+                scrollTop: divs.eq(div).offset().top
+            }, 750, function() {
+              isScrollable = true;
+
+            });
+
+         }
+         isScrollable = false;
+
           // x = 0;
+        //  isScrollable = true;
           return false;
         }
+      //  isScrollable = true;
       });
       $(window).resize(function () {
           $('html,body').scrollTop(divs.eq(div).offset().top);

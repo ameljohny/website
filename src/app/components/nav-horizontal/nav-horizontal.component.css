@@ -177,7 +177,7 @@
     background-color: rgba(0,0,0,.9);
     box-shadow: 1px 0px 5px black; 
     width:100%;
-    position: fixed;
+    position: top;
     padding:0px auto;
     z-index: 1000;
     height:60px;
