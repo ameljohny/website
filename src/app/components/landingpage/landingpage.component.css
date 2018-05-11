@@ -3,23 +3,24 @@
 	width: 100vw;
 }
 .vidbg{
+  width:100vw;
   position: relative;
   margin: 0;
   padding: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  height:100%;
+  height:100vh;
+  overflow:hidden;
 }
 
 #video-background {
   margin: 0;
   width:100%;
-  min-height: 100%; 
-  z-index: -100;
+  z-index:-1000;
   position:absolute;
-  
+  filter: brightness(.5);
+  height:auto;
 
 }
-
 
  .contnt{
     position:absolute;
@@ -236,7 +237,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36fcff', end
 
   .pagecnt{
     padding:1%;
+
+    
   }
+
+  .vidbg{
+    margin: 0;
+    padding: 0;
+    height:100%;
+    
+  
+  }
+
+  #video-background {
+    margin: 0;
+    height:100%; 
+    z-index:-2000;
+    position:absolute;
+  filter: brightness(.5);  
+  
+  }
+
 
 }
     

@@ -8,7 +8,10 @@ import { NavHorizontalComponent } from './components/nav-horizontal/nav-horizont
 import { NavVerticalComponent } from './components/nav-vertical/nav-vertical.component';
 import { AccordionComponent } from './components/accordion/accordion.component';
 import { LandingpageComponent } from './components/landingpage/landingpage.component';
-import { FooterComponent } from './footer/footer.component';
+import { CounterComponent } from './components/counter/counter.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
+import { FooterComponent } from './components/footer/footer.component';
+
 
 
 @NgModule({
@@ -19,8 +22,10 @@ import { FooterComponent } from './footer/footer.component';
     NavVerticalComponent,
     AccordionComponent,
     LandingpageComponent,
+    CounterComponent,
+    GalleryComponent,
     FooterComponent
-],
+  ],
   imports: [
     BrowserModule
   ],
