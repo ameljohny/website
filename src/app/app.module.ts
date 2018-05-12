@@ -10,6 +10,8 @@ import { AccordionComponent } from './components/accordion/accordion.component';
 import { LandingpageComponent } from './components/landingpage/landingpage.component';
 import { CounterComponent } from './components/counter/counter.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
+import { FooterComponent } from './footer/footer.component';
+
 
 
 
@@ -22,7 +24,8 @@ import { GalleryComponent } from './components/gallery/gallery.component';
     AccordionComponent,
     LandingpageComponent,
     CounterComponent,
-    GalleryComponent
+    GalleryComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule

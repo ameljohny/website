@@ -1,0 +1,11 @@
+.clock{
+position: absolute;
+display: inline;
+top:50px;
+left:20%;
+right: 0;
+padding: auto;
+text-align: center;
+margin: auto;
+color: antiquewhite;
+}
