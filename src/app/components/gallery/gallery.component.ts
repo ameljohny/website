@@ -12,6 +12,7 @@ export class GalleryComponent implements OnInit {
 
   ngOnInit() {
     lightGallery(document.getElementById('lightgallery'));
+    
   }
 
 }

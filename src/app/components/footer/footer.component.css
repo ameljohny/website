@@ -16,7 +16,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', end
 	width:30%;
 	height:95%;
 	content:"";
-	padding:3% 1% 0px 1%;
+	padding:6% 1% 0px 1%;
 	margin-left: 3%;
 
 }
@@ -27,7 +27,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', end
 	
 	height:95%;
 	content:"";
-	padding: 3% 1% 0px 1%;
+	padding:6% 1% 0px 1%;
 	margin-left: 4%;
 }
 
@@ -37,7 +37,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', end
 	content:"";
 	width:30%;
 	text-align: center;
-	padding:3% 1% 0px 1%;
+	padding:6% 1% 0px 1%;
 	color:#787878;
 	margin-left: 3%;
 	transition: .5s linear .3s;
