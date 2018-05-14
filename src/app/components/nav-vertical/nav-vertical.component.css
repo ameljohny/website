@@ -22,21 +22,22 @@
 #a1,#a2,#a3,#a4,#a5{
     color:white!important;
     transition: all .1s ease;
+    padding-left: 10px;
 
 }
 
 #a1:hover,#a2:hover,#a3:hover,#a4:hover,#a5:hover{
     color:#000!important;
     text-decoration: none;
-    border-top:2px solid #000;
-    border-bottom:2px solid #000;
+
+    border-left: 10px solid #000;
 }
 
 
 #verticallinks
 {
     margin-top:180px;
-    margin-left: 5px;
+    margin-left: -5px;
 }
 
 #a1

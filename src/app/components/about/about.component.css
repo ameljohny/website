@@ -22,6 +22,17 @@
 
 }
 
+.left i{
+    color: #1ba8d3;
+
+}
+
+#left1
+
+{
+    display: none;
+}
+
 .right
 {   position:fixed;
 
