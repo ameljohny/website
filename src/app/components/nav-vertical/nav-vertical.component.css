@@ -14,7 +14,10 @@
 
 
 
-
+#verticallinks li{
+    padding-top: 15px;
+    font-weight: bold;
+}
 
 #a1,#a2,#a3,#a4,#a5{
     color:white!important;
@@ -32,8 +35,8 @@
 
 #verticallinks
 {
-    margin-top:220px;
-    margin-left: 20px;
+    margin-top:180px;
+    margin-left: 5px;
 }
 
 #a1
