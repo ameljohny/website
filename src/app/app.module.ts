@@ -8,7 +8,9 @@ import { NavHorizontalComponent } from './components/nav-horizontal/nav-horizont
 import { NavVerticalComponent } from './components/nav-vertical/nav-vertical.component';
 import { AccordionComponent } from './components/accordion/accordion.component';
 import { LandingpageComponent } from './components/landingpage/landingpage.component';
-import { FooterComponent } from './footer/footer.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { VideoBackgroundComponent } from './components/video-background/video-background.component';
+import { AboutComponent } from './components/about/about.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { FooterComponent } from './footer/footer.component';
     NavVerticalComponent,
     AccordionComponent,
     LandingpageComponent,
-    FooterComponent
+    FooterComponent,
+    VideoBackgroundComponent,
+    AboutComponent
 ],
   imports: [
     BrowserModule
