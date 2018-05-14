@@ -1,11 +1,8 @@
 .clock{
 position: absolute;
-display: inline;
-top:50px;
-left:20%;
-right: 0;
-padding: auto;
-text-align: center;
-margin: auto;
+left: -310px;
 color: antiquewhite;
+margin: 0;
+width:620px;
+transform: scale(.6);
 }

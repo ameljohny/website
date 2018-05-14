@@ -1,39 +1,51 @@
 .container{
+  margin:0px;
   width:100vw;
   height:100vh;
-  background-color: #15151e;
+  background-color:#1f1f24;
   padding: 70px 0 50px 0;;
 }
 h1{
   font-family: 'Raleway';
   font-weight: 900;
   text-align: center;
-  color: #fff;
+  color: #FFF;
   margin-bottom: 40px;
 }
+
 p{
   margin: auto;
   max-width: 800px;
   font-family: 'Raleway';
   font-weight: 300;
   text-align: center;
-  color: #fff;
+  color: #FFF;
 }
 #accordion{
   width: 100vw;
   height: 60vh;
   margin: 50px 0 0 0 ;
   padding: 0px;
+  background-color: #15151e;
 
 }
+#accordion p{
+  color: #fff;
+}
 @media screen and (max-width:768px){
-  .col-sm-12 .tabs{
-    width:100vw;
-    display: none;
-  }
-  .col-sm-12 .active{
-    display: block;
-  } 
+ .tabs{
+   min-width: 70px;
+   float: none;
+   display: inline-block;
+ }    
+ #accordion{
+   width: 840px;
+   overflow-y: scroll;
+
+ }
+ .container{
+   width:1000px;
+ }
 }
 
 .tabs{
@@ -42,17 +54,17 @@ p{
   height: 100%;
   float: left;
   display: inline;
-  border-right: 2px solid rgba(94, 91, 112, 0.2);
-  background-color: #15151e;
   overflow: hidden;
   -webkit-transition: all 0.5s 0.2s;
   -webkit-transition-delay: ease-in-out;
   -moz-transition: all 0.5s 0.2s ease-in-out;
   -o-transition: all 0.5s 0.2s ease-in-out;
   transition: all 0.5s 0.2s ease-in-out;
+  border-right: 2px solid rgba(94, 91, 112, 0.2);
 }
+
 .active{
-  background-color: #13131b;
+  
 }
 .tabs h3{
   display: block;
@@ -62,7 +74,7 @@ p{
   }
 .active h3{
   font-weight: 700;
-  color: rgb(58, 190, 241);
+  color: #FFF;
 }
 .fixtures{
   position: absolute;
@@ -98,7 +110,7 @@ p{
   position: absolute;
   opacity: 0;
   left: 0;
-  color: rgb(56, 90, 204);
+  color: #fff;
 }
 .year2018{
     background: linear-gradient(to top right, #9959ad 0%, #ed424e 100%);

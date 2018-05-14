@@ -10,8 +10,7 @@ import { AccordionComponent } from './components/accordion/accordion.component';
 import { LandingpageComponent } from './components/landingpage/landingpage.component';
 import { CounterComponent } from './components/counter/counter.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
-import { FooterComponent } from './footer/footer.component';
-
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
