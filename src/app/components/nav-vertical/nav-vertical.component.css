@@ -1,42 +1,37 @@
 #verticalnav
 {   position: fixed;
     background-color: white;
-    height: 400px;
+    height: 70vh;
     width: 300px;
-    top: 200px;
+    top: 20vh;
     left: 80vw;
     padding-left:5vw; 
     font-size: 20px;
     clip-path: polygon(45% 0%, 100% 0%, 100% 100%, 0% 100%);
-    background: rgba(255, 255, 255, 0.30);
-    transition: transform .2s;
+    background: #1ba8d3;
 }
 
 
-#verticalnav:hover {
-    background: rgba(255, 255, 255, 0.33);
-    transform: scale(1.1);
 
-}
 
 
 #a1,#a2,#a3,#a4,#a5{
     color:white!important;
-    transition: all 1s ease;
+    transition: all .1s ease;
 
 }
 
 #a1:hover,#a2:hover,#a3:hover,#a4:hover,#a5:hover{
-    color:#0fbfef!important;
+    color:#000!important;
     text-decoration: none;
-    border-top:1px solid #0fbfef;
-    border-bottom:1px solid #0fbfef;
+    border-top:2px solid #000;
+    border-bottom:2px solid #000;
 }
 
 
 #verticallinks
 {
-    margin-top:120px;
+    margin-top:220px;
     margin-left: 20px;
 }
 

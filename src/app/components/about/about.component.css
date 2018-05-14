@@ -1,0 +1,33 @@
+#left
+{   position:fixed;
+    width: 60vw;
+    height: 63.5vh;
+    top: 26vh;
+    left:5vw;
+    overflow: auto;
+    color: white;
+
+}
+
+
+#right
+{   position:fixed;
+    background-color:white;
+    width: 40vw;
+    height: 70vh;
+    top: 20vh;
+    left:65vw;
+    z-index: -1;
+    background-image: url("../../../assets/about/1.jpg");
+    background-repeat: no-repeat;
+}
+
+#lefthead
+{
+    position: fixed;
+    top: 18vh;
+    left: 5vw;
+    color: white;
+    border-left: #1ba8d3 solid 20px;
+    padding-left: 10px;
+}
