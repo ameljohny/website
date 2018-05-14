@@ -14,6 +14,8 @@ export class AboutComponent implements OnInit {
     document.getElementById("lefthead1").style.display="none";
     document.getElementById("leftpara1").style.display="none";
 
+    document.getElementById("lefthead2").style.display="none";
+    document.getElementById("leftpara2").style.display="none";
 
     document.getElementById("lefthead3").style.display="none";
     document.getElementById("leftpara3").style.display="none";
