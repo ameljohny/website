@@ -6,20 +6,22 @@
     left:5vw;
     overflow: auto;
     color: white;
+    padding: 10px;
 
 }
 
 
 #right
 {   position:fixed;
-    background-color:white;
+
     width: 40vw;
     height: 70vh;
     top: 20vh;
     left:65vw;
-    z-index: -1;
-    background-image: url("../../../assets/about/1.jpg");
+    z-index:3;
+    background-image: url("/../../../assets/about/1.jpg");
     background-repeat: no-repeat;
+    background-position-x: -20px;
 }
 
 #lefthead
