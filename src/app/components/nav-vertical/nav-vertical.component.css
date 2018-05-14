@@ -19,10 +19,16 @@
     font-weight: bold;
 }
 
+#verticallinks li :active{
+    color:#000!important;
+    text-decoration: none;
+    border-left: 10px solid #000;
+}
+
 
 
 #a1,#a2,#a3,#a4,#a5{
-    color:white!important;
+    color:white;
     transition: all .1s ease;
     padding-left: 10px;
 
@@ -35,6 +41,13 @@
     border-left: 10px solid #000;
 }
 
+.hoverclass
+{
+    color:#000!important;
+    text-decoration: none;
+
+    border-left: 10px solid #000;
+}
 
 
 #verticallinks
