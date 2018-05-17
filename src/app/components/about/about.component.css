@@ -1,3 +1,20 @@
+@media screen and (min-width: 0px) and (max-width: 1205px) {
+    #aboutdesktop {display:none!important; }
+    #aboutfooter {padding-top: 0px!important;}
+}
+
+@media screen and (min-width: 1206px) and (max-width: 3335px) {
+    #aboutmobile {display:none!important; }
+}
+  
+#aboutmobile 
+{ color: white;
+    padding: 15px;
+ padding-top: 65px;
+
+
+}
+
 .left
 {   position:absolute;
     width: 60vw;
@@ -12,13 +29,13 @@
 
 }
 
-.left p{
+.left p, #aboutmobile p{
     font-family:'Roboto';
     font-weight: normal;
 
 }
 
-.left h2{
+.left h2, #aboutmobile h2{
     color: #1ba8d3;
 
 }
@@ -43,6 +60,11 @@
     background-position-x: -20px;
 }
 
+#aboutmobile h1{
+    color: white;
+    border-left: #1ba8d3 solid 20px;
+    padding-left: 10px;
+}
 .lefthead
 {
     position: absolute;
