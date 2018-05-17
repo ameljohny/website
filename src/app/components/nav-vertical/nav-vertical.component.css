@@ -1,17 +1,21 @@
 #verticalnav
-{   position: fixed;
-    background-color: white;
+{   position: absolute;
     height: 70vh;
     width: 300px;
     top: 20vh;
-    left: 80vw;
+    right: 0px;
     padding-left:5vw; 
     font-size: 20px;
     clip-path: polygon(45% 0%, 100% 0%, 100% 100%, 0% 100%);
-    background: #1ba8d3;
-    z-index: 100;
-}
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1ba8d3+0,00a0d1+100 */
+background: #1ba8d3; /* Old browsers */
 
+    z-index: 10;
+    transition: .2s ease-out .2s;
+}
+#verticalnav:hover{
+
+}
 
 
 #verticallinks li{

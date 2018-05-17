@@ -1,5 +1,5 @@
 .left
-{   position:fixed;
+{   position:absolute;
     width: 60vw;
     height: 63.5vh;
     top: 26vh;
@@ -7,6 +7,7 @@
     overflow: auto;
     color: white;
     padding: 10px;
+    z-index: 10;
     
 
 }
@@ -30,13 +31,13 @@
 
 
 .right
-{   position:fixed;
+{   position:absolute;
 
     width: 40vw;
     height: 70vh;
     top: 20vh;
     left:65vw;
-    z-index:3;
+    z-index:1;
 
     background-repeat: no-repeat;
     background-position-x: -20px;
@@ -44,7 +45,7 @@
 
 .lefthead
 {
-    position: fixed;
+    position: absolute;
     top: 18vh;
     left: 5vw;
     color: white;
