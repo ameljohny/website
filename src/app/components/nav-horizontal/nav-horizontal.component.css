@@ -8,30 +8,37 @@
 }
 
 .booking{
+  padding:0px 10px;
   margin:0px;
-  background-color:#071e77;
-  transition:1s ease-in-out.3s ;
-
+  background-color:#ff662a00;
+  transition:.2s ease-out .1s ;
+  opacity:1!important;
+  border:1px dashed rgba(7,197,245,1);
+  /* border-radius:15px 0px 50px 20%; */
 }
 
 .booking:hover{
-  border:none;
+  border:1px solid rgb(0, 0, 0);
   background-color:rgba(7,197,245,1);
+  border-radius:50px;
   }
 
   #bt{
-    transition:1s ease-in-out .1s ;
+    transition:.2s ease-in-out .1s ;
 
   }
 
   .booking:hover #bt{
-    color:#173940;
+    color:#071d0e;
     
   }
 
-  .booking:a{
-    content:"book now";
+  .booking a{
+    font-family:roboto;
+    font-weight:bolder;
   }
+
+
 
 .shape {
   background:  linear-gradient(to bottom, rgba(11,218,255,1) 0%, rgba(23,136,207,1) 100%);
@@ -70,29 +77,28 @@
 
 }
 
+
 #linksmobile
 {
-    color: black;
+    
     padding-top: 140px;
 
 }
 
 #linksmobile li
 {
-    color: black;
+ 
     list-style-type: none;
     text-align: left;
-    min-height:50px;
-
-    
+    min-height:50px;   
 }
 
 #linksmobile li  a
 {
-    color: black;
+    color: rgb(236, 236, 236);
     text-decoration: none;
     text-align: left;
-    font-size:35px;
+    font-size:2em;
     
 }
 #links li a
@@ -103,12 +109,9 @@
     margin:3px 1vw;
 }
 
-#linksmobile li a
-{
-    color: black;
-    font-size: 17px;
+.bt{
+  color:rgb(90, 203, 231)!important;
 }
-
 #blueheading
 {
     padding-top: 35px;
@@ -118,17 +121,28 @@
 @media screen and (min-width: 0px) and (max-width: 1205px) {
     .shape { display: none; }
     #links { display: none; }
+    .nv{
+      background-color: rgba(0,0,0,0);
+      opacity:1;
+      position:fixed;
+      display:block;
+      width:100px;
+    }
+  
+    
+
 
   }
 
   @media screen and (min-width: 1206px) and (max-width: 3333px) {
     #nav-icon1 { display: none; }
     #toggle {display: none;}
+   
   }
 
   #toggle {
     width: 100vw;
-    background: rgba(255,255,255,1);
+    background: rgb(22, 14, 34);
     margin-top: -72px;
     height: 100vh;
     z-index: 9000;
@@ -141,7 +155,8 @@
     width: 20px;
     height: 5px;
     margin:1vw;
-    position:absolute;
+    position:fixed;
+    background-color:transparent;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -207,7 +222,7 @@
   }
   
   .nv{
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,0);
     /*box-shadow: 1px 0px 5px black;*/ 
     width:100%;
     position:fixed;
@@ -221,13 +236,15 @@
   }
 
   .active{
-     border-bottom:2px solid rgba(7,197,245,1);
+     border-bottom:4px solid rgba(7,197,245,1);
      transition: 1s ease-in-out .5s;
     
   }
 .nv:hover{
   opacity:1;
+  background-color: rgba(0,0,0,.8);
  }
+ 
 /*
  .sg{
   padding:0px;

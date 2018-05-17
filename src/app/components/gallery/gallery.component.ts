@@ -12,6 +12,9 @@ export class GalleryComponent implements OnInit {
 
   ngOnInit() {
     lightGallery(document.getElementById('lightgallery'));
+    lightGallery(document.getElementById('video-gallery'), {
+      videojs: true
+  }); 
     
   }
 
