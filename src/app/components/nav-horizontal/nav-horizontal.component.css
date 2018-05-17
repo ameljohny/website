@@ -48,8 +48,8 @@
 
 #ntbrlogo
 {   width:100px;
-    padding-left: 5px;
-    padding-top: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 #links
@@ -151,15 +151,9 @@
 
   #nav-icon1 {
     right:20px;
-<<<<<<< HEAD
     top:20px;
     width: 20px;
     height: 5px;
-=======
-    top:5px;
-    width: 30px;
-    height: 2px;
->>>>>>> 40de5d038634f6008a682a2be462f39686311f43
     margin:1vw;
     position:fixed;
     background-color:transparent;
