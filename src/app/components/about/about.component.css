@@ -1,0 +1,63 @@
+.left
+{   position:fixed;
+    width: 60vw;
+    height: 63.5vh;
+    top: 26vh;
+    left:5vw;
+    overflow: auto;
+    color: white;
+    padding: 10px;
+    
+
+}
+
+.left p{
+    font-family:'Roboto';
+    font-weight: normal;
+
+}
+
+.left h2{
+    color: #1ba8d3;
+
+}
+
+.left i{
+    color: #1ba8d3;
+
+}
+
+
+
+.right
+{   position:fixed;
+
+    width: 40vw;
+    height: 70vh;
+    top: 20vh;
+    left:65vw;
+    z-index:3;
+
+    background-repeat: no-repeat;
+    background-position-x: -20px;
+}
+
+.lefthead
+{
+    position: fixed;
+    top: 18vh;
+    left: 5vw;
+    color: white;
+    border-left: #1ba8d3 solid 20px;
+    padding-left: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1ba8d3; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color:none;
+}
+ 

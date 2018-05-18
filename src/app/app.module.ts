@@ -8,10 +8,10 @@ import { NavHorizontalComponent } from './components/nav-horizontal/nav-horizont
 import { NavVerticalComponent } from './components/nav-vertical/nav-vertical.component';
 import { AccordionComponent } from './components/accordion/accordion.component';
 import { LandingpageComponent } from './components/landingpage/landingpage.component';
-import { CounterComponent } from './components/counter/counter.component';
-import { GalleryComponent } from './components/gallery/gallery.component';
 import { FooterComponent } from './components/footer/footer.component';
-
+import { VideoBackgroundComponent } from './components/video-background/video-background.component';
+import { AboutComponent } from './components/about/about.component';
+import { CounterComponent } from './components/counter/counter.component';
 
 
 @NgModule({
@@ -22,10 +22,11 @@ import { FooterComponent } from './components/footer/footer.component';
     NavVerticalComponent,
     AccordionComponent,
     LandingpageComponent,
+    FooterComponent,
     CounterComponent,
-    GalleryComponent,
-    FooterComponent
-  ],
+    VideoBackgroundComponent,
+    AboutComponent
+],
   imports: [
     BrowserModule,NgbModule.forRoot()
   ],

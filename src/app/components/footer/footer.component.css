@@ -104,17 +104,26 @@ text-decoration: none;
 	  height:100vh;
 	}
 
-    .div1{width:100%;margin:0;padding:2%;height:30vh;}
+    .div1{width:100%;margin:0;padding:50px 10px 10px 10px; height:35%;}
 
-	.div2{width:100%;margin:0;padding:2%;height:30vh;}
+	.div2{width:100%;margin-top:50px;padding:0px;height:35%;font-size:.8em;}
 
-	.div3{width:100%;margin:0;height:35vh;padding-top:10%;}
+	.div3{width:100%;margin:0;height:15%;padding:0px;font-size:.9em}
+
+	.div3 h5{
+		font-size:.6em;
+		margin:0px;
+	}
 
     li{
 	padding:1px 0px;
 	list-style-type: none;
+    
 
-
+}
+h4.abs{
+	margin:0px;
+	font-size:.9em;
 }
 
 ul{
@@ -125,25 +134,26 @@ ul{
 
 li a{
 	font-size:.8em;
+	margin:0px auto;
 }
 
 .foottext{
-	font-size:8px;
+
+	padding:0px 0px 0px 10px;
+	border-left:5px solid rgb(70, 70, 70);
 	color:#787878;
 	font-family:raleway;
 
 }
 
 .logo{
-	width:100px;
+	width:75px;
 }
 
-.abs{
-	font-size:.5em;
-}
+
 
 .copyright{
-	font-size:7px;
+	font-size:.4em;
 }
 
 }
@@ -155,13 +165,13 @@ li a{
 	  padding-top:0;
 	}
 
-    .div1{width:30%;padding:0;margin-left:1%;display:inline-block;height:80%;}
+    .div1{width:30%;margin-left:1%;display:inline-block;height:80%;padding-top:3%}
 
-	.div2{width:30%;padding:0;display:inline-block;height:80%;}
+	.div2{width:30%;display:inline-block;height:80%;font-size:.8em;padding-top:3%;}
 
 
 
-	.div3{width:30%;font-size:.8em;display:inline-block;padding:0;height:80%;margin:0px;}
+	.div3{width:30%;font-size:.8em;display:inline-block;padding-top:3%;height:80%;margin:0px;}
 
 	ul{
 	padding:0px 0px;
@@ -169,6 +179,9 @@ li a{
 
 }
 
+.div3 h5{
+	font-size: .8em;
+}
 li a{
 	font-size:.9em;
 }
@@ -193,6 +206,9 @@ li a{
 	margin:0px;
 	transform:rotate(180deg);
 
+}
+.foottext{
+	font-size:.7em;
 }
 .imps{
 	font-size: 1.2em;

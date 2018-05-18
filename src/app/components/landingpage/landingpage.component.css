@@ -7,7 +7,7 @@
   position: relative;
   margin: 0;
   padding: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0..4);
   height:100vh;
   overflow:hidden;
 }
@@ -25,46 +25,57 @@
  .contnt{
     position:absolute;
     bottom:10%;
-    width:45%;
-    right:5%;
+    width:40%;
+    right:3%;
     color:white;
     margin:0px;
     padding:0;
     text-align:center;
     opacity:1;
-
+    
   }
 
 
   .sx{
-    width:100%;
-    font-size:9em;
-    margin-bottom: -1%;
-    text-align:right;
-    opacity:.3;
+    
+    position:absolute;
+    color:rgb(199, 196, 191);
+    padding:0px 60px;
+    font-style: italic;
+    border-radius:0px 0px 30% 70px;
+    border-bottom:8px solid rgba(222,222,55,.4);
+    /* background-color:rgba(255, 217, 0, 0.226); */
+    font-size:2em;
+    bottom:50px;
+    left:50px;
+    text-align:center;
+    opacity:1;
+    letter-spacing:.2em;
+    /* transform:rotate(-45deg); */
     
   }
   .ntbr{
     margin:0;
-    padding:20px 0px;
+    padding:40px 0px 10px 0px;
     font-family: Raleway;
-    font-size: 4em;
-    font-weight:700;
+    font-size: 3em;
+    font-weight:800;
    
   }
   .cnt{
      margin:0;
-     padding:0px 4%;
+     padding:0px 4% 0 0;
      background: rgba(255,255,255,0);
-background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(0,0,0,0.2) 28%, rgba(0,0,0,.4) 100%);
+background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1) 18%, rgba(0,0,0,.3) 100%);
 background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(28%, rgba(0,0,0,0.28)), color-stop(100%, rgba(0,0,0,1)));
-background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(0,0,0,0.2) 28%, rgba(0,0,0,.4) 100%);
-background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(0,0,0,0.2) 28%, rgba(0,0,0,.4) 100%);
-background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(0,0,0,0.2) 28%, rgba(0,0,0,.4) 100%);
-background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(0,0,0,0.2) 28%, rgba(0,0,0,.4) 100%);
+background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1) 28%, rgba(0,0,0,.3) 100%);
+background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1) 28%, rgba(0,0,0,.2) 100%);
+background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1) 28%, rgba(0,0,0,.2) 100%);
+background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1) 28%, rgba(0,0,0,.2) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000', GradientType=1 );
-     border-right:3px solid rgba(222,222,55,.4);
-     width:60%;
+     border-right:5px solid rgba(222,222,55,.4);
+     border-radius:0px 5px 5px 0px;
+     width:100%;
      text-align: right;
 
   }
@@ -111,16 +122,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36fcff', end
   font-size:60px;
 }
 
-.boatrace{
-  font-family:Roboto;
-  font-size: .75em;
-  color:#ececec;
-  font-style: normal;
-  margin-top:0;
-}
+
 
 #Nehru{
-  font-size:1.18em;
+  font-size:1.4em;
 }
 .rm{
   background-color: rgba(0,0,0,.2);
@@ -149,10 +154,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36fcff', end
 }
 
 .pagecnt{
-  text-align:left;
-  font-family:raleway;
+  text-align:center;
+  font-family:jura;
   font-weight: 100;
-  font-size:1.2em;
+  font-size:1.8em;
 }
 
 
@@ -160,7 +165,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36fcff', end
   .contnt{
     width:100%;
     color:white;
-    padding-left:4em;
+    padding-left:5%;
     text-align:center;
     opacity:1;
     font-size:.7em;
@@ -168,7 +173,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36fcff', end
   }
 
 
-
+  .ntbr{
+    text-align:center;
+  }
   #video-background {
   display:none;
 
@@ -189,10 +196,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36fcff', end
   font-size:1.5em;
 }
 .sx{
-    width:100%;
-    font-size:9em;
-    margin-bottom: -1%;
-    text-align:center;
+   display:none;
   
     
   }
@@ -203,14 +207,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36fcff', end
   font-size:1.75em;
 }
 
-.boatrace{
-  
-  font-size: .4em;
 
-}
 
 #Nehru{
-  font-size:.9em;
+ 
 }
 .rm{
  
@@ -241,8 +241,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36fcff', end
   .vidbg{
     margin: 0;
     padding: 0;
-    height:100%;
-    
   
   }
 
@@ -251,8 +249,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36fcff', end
     height:100%; 
     z-index:-2000;
     position:absolute;
-  filter: brightness(.5);  
+   filter: brightness(.5);  
   
+  }
+  .sx{
+    display:none;
   }
 
 
