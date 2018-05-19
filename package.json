@@ -8,7 +8,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "prestart": "npm install",
-    "start": "http-server ./app -a 0.0.0.0 -p 8000 -c-1",
+    "start": "http-server .ntbr/website/app -a 18.219.233.3 -p 8000 -c-1",
 
     "pretest": "npm install",
     "test": "karma start karma.conf.js",

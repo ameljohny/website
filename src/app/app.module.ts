@@ -12,6 +12,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { VideoBackgroundComponent } from './components/video-background/video-background.component';
 import { AboutComponent } from './components/about/about.component';
 import { CounterComponent } from './components/counter/counter.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { CounterComponent } from './components/counter/counter.component';
     FooterComponent,
     CounterComponent,
     VideoBackgroundComponent,
-    AboutComponent
+    AboutComponent,
+    GalleryComponent
 ],
   imports: [
     BrowserModule,NgbModule.forRoot()
