@@ -76,7 +76,7 @@ export class AppComponent implements OnInit  {
     console.log('Footer Width = ' + siteFooterWidth + 'px');
 
     siteContent.css({
-      "margin-bottom" : siteFooterHeight
+      "margin-bottom" : siteFooterHeight-40
     });
   };
 });

@@ -186,7 +186,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36fcff', end
 .vidbg{
   margin: 0;
   padding: 0;
-  background-image:url("assets/liveimgs/mainback.jpg");
+  background-image:url('assets/liveimgs/mainback.jpg');
   height:100%;
   background-position: center;
   background-size: cover;
