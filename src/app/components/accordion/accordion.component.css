@@ -113,6 +113,7 @@
     width: 100%;  
     padding-top: 30px;
     min-height: 450px;
+    cursor: pointer;
 
   }
   .accordion{
@@ -224,6 +225,7 @@
     margin-top: 20px;
     text-align: center;
     width: 100vw;
+    cursor: pointer;
   }
   .see-more a{
     color: #FFF;
