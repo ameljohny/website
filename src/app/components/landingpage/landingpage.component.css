@@ -161,7 +161,8 @@
   margin: 0;
   padding: 0;
   background-image:url('assets/liveimgs/mainback.jpg');
-  height:100%;
+  height:100vh;
+  width:100vw;
   background-position: center;
   background-size: cover;
 

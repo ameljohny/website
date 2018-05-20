@@ -1,11 +1,4 @@
-.shape
-{ margin: auto;
-  width: 400px;
-  height: 150px;
-  margin-top: -82px;
-  text-align: center;
-  color: white;
-}
+
 
 .booking{
   padding:0px 5px;
@@ -30,18 +23,6 @@
     font-weight:bolder;
   }
 
-
-.shape {
-  background:  linear-gradient(to bottom, rgba(11,218,255,1) 0%, rgba(23,136,207,1) 100%);
-  
-  clip-path: polygon(100% 0%, 90% 75%, 50% 85%, 10% 0%, 50% 0%);
-}
-
-#ntbrlogo
-{   width:100px;
-    padding-left: 20px;
-    padding-top: 20px;
-}
 
 #links
 {   
