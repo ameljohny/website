@@ -1,37 +1,6 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>NTBR</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900|Roboto:400,500,700,900|Jura:400,500,600,700,800,900" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
-  <script src="assets/js/navbar.js"></script>
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
-<script src="https://momentjs.com/downloads/moment.js"></script>
-<script src="https://momentjs.com/downloads/moment-timezone-with-data-2012-2022.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.js"></script>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.css" rel="stylesheet">
-<link href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
-<script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
-<script src="https://cdn.rawgit.com/sachinchoolur/lg-pager.js/master/dist/lg-pager.js"></script>
-<script src="https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js"></script>
-<script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
-<script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
-<script src="https://cdn.rawgit.com/sachinchoolur/lg-hash.js/master/dist/lg-hash.js"></script>
-<script src="https://cdn.rawgit.com/sachinchoolur/lg-share.js/master/dist/lg-share.js"></script>
-<link href="http://vjs.zencdn.net/6.8.0/video-js.css" rel="stylesheet">
-<script src="http://vjs.zencdn.net/6.8.0/video.js"></script>
-<base href="/">
-  
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<style>
-
+body {
+    background-color: #222;
+  }
   @media screen and (max-width:768px){
     #leftimage
     {
@@ -207,18 +176,3 @@
     text-align: center;
     background-color: #888;
   }
-</style>
-<body>
-  <app-root>
-      <div class="website-loading" style="background-color: #15151e">
-      <img id="leftimage" src="./assets/loadingscreen/leftcontent.png">
-      <div id="loading-wrapper">
-          <div id="loading-text">LOADING</div>
-          <div id="loading-content"></div>
-      </div>
-      <img id="rightimage" src="./assets/loadingscreen/rightcontent.png">
-    </div>
-    </app-root>
-
-</body>
-</html>
