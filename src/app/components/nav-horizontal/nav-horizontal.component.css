@@ -213,7 +213,7 @@
   }
 
   .active{
-     border-bottom:4px solid rgba(7,197,245,1);
+     border-top:4px solid rgba(7,197,245,1);
      transition: 1s ease-in-out .5s;
     
   }

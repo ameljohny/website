@@ -1,4 +1,6 @@
-
+.Absolute_Technologies{
+	cursor: pointer;
+}
 @media screen and (min-width: 0px) and (max-width: 1205px) 
 {
     #aboutfooter {padding-top: 0px!important;}
