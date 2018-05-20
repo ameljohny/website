@@ -11,6 +11,7 @@ import { LandingpageComponent } from './components/landingpage/landingpage.compo
 import { FooterComponent } from './components/footer/footer.component';
 import { VideoBackgroundComponent } from './components/video-background/video-background.component';
 import { AboutComponent } from './components/about/about.component';
+import { LoadingComponent } from './components/loading/loading.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { AboutComponent } from './components/about/about.component';
     LandingpageComponent,
     FooterComponent,
     VideoBackgroundComponent,
-    AboutComponent
+    AboutComponent,
+    LoadingComponent,
 ],
   imports: [
     BrowserModule
