@@ -1,92 +1,184 @@
 
 .container{
-margin: 0;
-padding: 70px 80px 5px 80px;
+padding:75px 5% 0px 5%;
 height: 100vh;
 width: 100vw;
-background-color: #131720;
+background-color: #1f1f2c;
+margin:0px;
 }
-.row{
- height: 100%;
-}
-.content{
-  height:60%;
-  width: 100%;
+
+
+.scrollicon{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  bottom:0%;
 }
-.scroller{
-  height:10%;
+.container1{
+  position: relative;
+  width: 20px;
+  height: 24px;
 }
+
+.chevron {
+  position: absolute;
+  width: 28px;
+  height: 8px;
+  opacity: 0;
+  transform: scale3d(0.5, 0.5, 0.5);
+  animation: move 3s ease-out infinite;
+}
+
+.chevron:first-child {
+  animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+  animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 51%;
+  background: #fff;
+}
+
+.chevron:before {
+  left: 0;
+  transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+  right: 0;
+  width: 50%;
+  transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+  25% {
+    opacity: 1;
+
+  }
+  33% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+  67% {
+    opacity: 1;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+  }
+}
+
+.text {
+  display: block;
+  margin-top: 75px;
+  margin-left: -30px;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: .25;
+  animation: pulse 2s linear alternate infinite;
+}
+
+@keyframes pulse {
+  to {
+    opacity: 1;
+  }
+}
+
+.introimg{
+  max-width:650px;
+  margin:2%;
+
+
+}
+
+
 .leftcontainer{
-  height: 100%;
-  width: 70%;
-  margin: 0;
-  padding: 0 30px;
-  text-align: center;
+  height: 60%;
+  margin:0px;
+  padding: 0px;
+  text-align:center;
+  border:1px solid rgba(85, 70, 109);
 }
-.logo{
-  margin: auto;
-  height:30%;
-}
-.content_text{
-  height:70%;
-}
-.content_text p{
-  padding: 20px;
-  max-width: 700px;
-  margin: auto;
-  height: 100%;
+.leftcontainer p{
+  color:rgb(235, 224, 241);
+  font-family:raleway;
+  text-align:justify;
+  padding:0px 30px;
+  font-size:1em;
 }
 .rightcontainer{
-  height: 100%;
-  width: 30%;
+  height:60%;
   margin: 0;
+  padding:0px;
+  
 }
 
 .newsfeedscontainer{
+  padding:0px;
   width: 100%;
   height: 100%;
-  background: #ffffff;
   box-sizing: content-box;
-
+  
 }
 .newsfeeds{
-  overflow-y: scroll;
-  height: 70%;
+  overflow-y:scroll;
+  height: 90%;
+  background: #2c2c3d;
+  border-bottom: 10px solid rgb(95, 74, 128);
 }
-.counter{
-  width: 100%;
-  height: 150px;
-  position: relative;
-}
-.counter h3{
-  text-align: center;
-  color: #15151e;
-  font-size: bold;
-}
+
+
 .counter_divider{
   padding: 2px 0;
 }
 app-counter{
-  position: relative;;
+  position: relative;
   top: 0;
   left: 0;
   padding: 0;
+  box-shadow:0px 0px 10px white;
 }
 .counterdiv{
-  height: 20%;
+  width:100%;
+  background-image: url('assets/water.gif');
+  height: 40%;
+  border:1px solid rgba(85, 70, 109);
   text-align: center;
+  background-size:cover;
+  background-position-y: 10%;
+  
+  /* box-shadow:0px 1px 1px rgb(197, 197, 197); */
 }
-.counterdiv h3{
-  font-size: 4em;
-  color: #15151e;
+
+.countr{
+  height:105px;
+}
+.counterdiv h2{
+  font-size:2.3em;
+  padding:15px;
+  color: #dfdfdf;
+  font-weight:bolder;
+  font-family:roboto;
+
 }
 .newsfeedscontainer h3{
   padding:10px;
   margin:0px;
   width:100%;
   font-size:18px;
-  color:#eceaea;
   font-family: Roboto;
   font-weight: 400;
   display: inline-block;
@@ -101,12 +193,18 @@ app-counter{
 .feeds{
   width:100%;
   font-family: Raleway;
-  border-bottom: 1px solid #dbdbdb;
+  color:rgb(211, 211, 211);
+  border-bottom: 1px solid #9958ab;
   padding:10px 15px;
   margin:0px;
-  transition: .1s linear 0s;
-  overflow-y: scroll;
+  transition: .2s linear 0s;
+  
 /*  border-radius: 3px;*/
+}
+
+.feeds:hover{
+  background-color:rgb(36, 31, 44);
+  border-bottom: 1px solid rgb(62, 206, 241); 
 }
 
 .feeds p{
@@ -118,19 +216,19 @@ app-counter{
 }
 
 .nf{
-  border-bottom: 2px solid rgb(255, 232, 130);
+  border-bottom: 1px solid rgb(167, 167, 167);
   font-weight: bold;
+  margin:0px;
+  padding:10px;
+  color:rgb(255, 255, 255);
+  text-align:center;
+  background: linear-gradient(-45deg, #9958ab, #ec414f);
 }
 .bottom-to-top {
   border-width: 3px;
  
 }
-.rmln{
-  text-align: center;
-  background-color: rgb(253, 224, 92);
-  margin-top: 5px;
-  padding: 10px;
-}
+
 @media screen and (max-width:768px){
   .container{
     margin: 0;
@@ -143,7 +241,7 @@ app-counter{
       height: 50%;
       width: 100%;
       margin: 0;
-      padding: 0 5px;
+      padding:10%;
       text-align: center;
     }
     .rightcontainer{

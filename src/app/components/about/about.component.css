@@ -1,5 +1,22 @@
+@media screen and (min-width: 0px) and (max-width: 1205px) {
+    #aboutdesktop {display:none!important; }
+    #aboutfooter {padding-top: 0px!important;}
+}
+
+@media screen and (min-width: 1206px) and (max-width: 3335px) {
+    #aboutmobile {display:none!important; }
+}
+  
+#aboutmobile 
+{ color: white;
+    padding: 15px;
+ padding-top: 65px;
+
+
+}
+
 .left
-{   position:fixed;
+{   position:absolute;
     width: 60vw;
     height: 63.5vh;
     top: 26vh;
@@ -7,17 +24,18 @@
     overflow: auto;
     color: white;
     padding: 10px;
+    z-index: 10;
     
 
 }
 
-.left p{
+.left p, #aboutmobile p{
     font-family:'Roboto';
     font-weight: normal;
 
 }
 
-.left h2{
+.left h2, #aboutmobile h2{
     color: #1ba8d3;
 
 }
@@ -30,21 +48,26 @@
 
 
 .right
-{   position:fixed;
+{   position:absolute;
 
     width: 40vw;
     height: 70vh;
     top: 20vh;
     left:65vw;
-    z-index:3;
+    z-index:1;
 
     background-repeat: no-repeat;
     background-position-x: -20px;
 }
 
+#aboutmobile h1{
+    color: white;
+    border-left: #1ba8d3 solid 20px;
+    padding-left: 10px;
+}
 .lefthead
 {
-    position: fixed;
+    position: absolute;
     top: 18vh;
     left: 5vw;
     color: white;

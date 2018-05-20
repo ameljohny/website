@@ -11,10 +11,9 @@ body{
   background-size: cover;
   margin:0px;
   padding:0px;
-  overflow-x:hidden;
+
   letter-spacing: 0.0625em;
-
-
+  width: 100%;
 }
 /* width */
 ::-webkit-scrollbar {
