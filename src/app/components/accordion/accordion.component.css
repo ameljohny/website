@@ -161,14 +161,13 @@
   .inactivetabs .contents{
     -webkit-animation: fadeout 1s linear forwards;
     animation: fadeout 1s linear forwards;
-    transform: scale(0);
   }
   .inactivetabs .contents{
     width: 0;
     padding: 0;  
   }
   #grad {
-    background: linear-gradient(45deg, #185a9d, #43cea2);
+    background: linear-gradient(-45deg, #185a9d, #43cea2);  
   }
   #grad .year{
     color: white;
@@ -213,7 +212,6 @@
     background-position: center;
   }
   .activetabs .contents, .activetabs .winners{
-    transform: scale(1);
     min-width: 360px;
     visibility: visible;
     -webkit-transition: all 0.5s 0s;

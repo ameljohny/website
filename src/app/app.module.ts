@@ -11,7 +11,8 @@ import { LandingpageComponent } from './components/landingpage/landingpage.compo
 import { FooterComponent } from './components/footer/footer.component';
 import { VideoBackgroundComponent } from './components/video-background/video-background.component';
 import { AboutComponent } from './components/about/about.component';
-import { CounterComponent } from './components/counter/counter.component';
+import {GalleryComponent} from './components/gallery/gallery.component';
+import {CounterComponent} from './components/counter/counter.component';
 
 
 @NgModule({
@@ -23,9 +24,10 @@ import { CounterComponent } from './components/counter/counter.component';
     AccordionComponent,
     LandingpageComponent,
     FooterComponent,
-    CounterComponent,
     VideoBackgroundComponent,
-    AboutComponent
+    AboutComponent,
+    GalleryComponent,
+    CounterComponent
 ],
   imports: [
     BrowserModule,NgbModule.forRoot()
