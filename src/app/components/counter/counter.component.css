@@ -4,5 +4,9 @@ left: -310px;
 color: antiquewhite;
 margin: 0;
 width:620px;
-transform: scale(.9);
+transform: scale(.8);
 }
+
+@media screen and (max-width:768px){
+    .clock{transform: scale(.5);}
+  }

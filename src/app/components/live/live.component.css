@@ -98,8 +98,8 @@ margin:0px;
 }
 
 .introimg{
-  max-width:650px;
-  margin:2%;
+  max-width:600px;
+  margin:0px;
 
 
 }
@@ -110,7 +110,7 @@ margin:0px;
   margin:0px;
   padding: 0px;
   text-align:center;
-  border:1px solid rgba(85, 70, 109);
+  /* border:1px solid rgba(85, 70, 109); */
 }
 .leftcontainer p{
   color:rgb(235, 224, 241);
@@ -129,15 +129,15 @@ margin:0px;
 .newsfeedscontainer{
   padding:0px;
   width: 100%;
-  height: 100%;
+  height: 90%;
   box-sizing: content-box;
   
 }
 .newsfeeds{
   overflow-y:scroll;
-  height: 90%;
+  height:97%;
   background: #2c2c3d;
-  border-bottom: 10px solid rgb(95, 74, 128);
+  border-bottom: 2px solid #43cea2;
 }
 
 
@@ -149,30 +149,53 @@ app-counter{
   top: 0;
   left: 0;
   padding: 0;
-  box-shadow:0px 0px 10px white;
+
 }
 .counterdiv{
   width:100%;
   background-image: url('assets/water.gif');
   height: 40%;
-  border:1px solid rgba(85, 70, 109);
   text-align: center;
   background-size:cover;
   background-position-y: 10%;
-  
-  /* box-shadow:0px 1px 1px rgb(197, 197, 197); */
+  padding:0px;
 }
 
 .countr{
   height:105px;
 }
 .counterdiv h2{
-  font-size:2.3em;
-  padding:15px;
-  color: #dfdfdf;
-  font-weight:bolder;
-  font-family:roboto;
 
+  font-size:2.3em;
+  font-weight:900;
+  padding:15px;
+  color: #e9e9e9;
+  text-shadow:0px 0px 1px rgb(0, 0, 0);
+  margin:10px;
+}
+.readmore{
+  border: 1px solid #fbff0f2a;
+  position:absolute;
+  bottom:10px;
+  right:3%;
+  transition:.3s ease-out .2s;
+  padding:3px 20px;
+}
+.readmore a{
+  text-decoration: none;
+  font-size:1.2em;
+  color:#6cccad;
+  font-weight:bold;
+  margin:0px;
+  transition:.2s ease-out .1s;
+}
+
+.readmore:hover{
+  background-color:#43cea2;
+  border:1px solid #43b9ce;
+}
+.readmore:hover a{
+  color:white;
 }
 .newsfeedscontainer h3{
   padding:10px;
@@ -194,12 +217,10 @@ app-counter{
   width:100%;
   font-family: Raleway;
   color:rgb(211, 211, 211);
-  border-bottom: 1px solid #9958ab;
+  border-bottom: 1px solid #6b4177;
   padding:10px 15px;
   margin:0px;
   transition: .2s linear 0s;
-  
-/*  border-radius: 3px;*/
 }
 
 .feeds:hover{
@@ -216,17 +237,13 @@ app-counter{
 }
 
 .nf{
-  border-bottom: 1px solid rgb(167, 167, 167);
+  border-bottom: 1px solid rgb(235, 238, 39);
   font-weight: bold;
   margin:0px;
   padding:10px;
   color:rgb(255, 255, 255);
   text-align:center;
-  background: linear-gradient(-45deg, #9958ab, #ec414f);
-}
-.bottom-to-top {
-  border-width: 3px;
- 
+  background: linear-gradient(-45deg, #185a9d, #43cea2);
 }
 
 @media screen and (max-width:768px){
@@ -234,20 +251,31 @@ app-counter{
     margin: 0;
     padding: 70px 20px 5px 20px;
     height: 200vh;
+    padding:1%;
     width: 100vw;
     display: block;
     }
+    .introimg{
+      max-width:300px;
+    }
     .leftcontainer{
-      height: 50%;
+      height: 40%;
       width: 100%;
       margin: 0;
-      padding:10%;
+      padding:15% 5%;
       text-align: center;
     }
+    .counterdiv{
+      height:20%;
+      background-size:200% 200%;
+    }
+    .container p{
+      padding:0px;  
+    }
     .rightcontainer{
-      height: 100vh;
       width: 100%;
       margin: 0;
+      height:40%;
     }
     .content{
       height:80%;
@@ -255,14 +283,9 @@ app-counter{
       display: block;
     }
     .newsfeedscontainer{
-      width: 80%;
-      height: 100%;
+      margin:0px auto;
+      width: 90%;
       background: #ffffff;
       box-sizing: content-box;
-    
-    }
-    .row{
-      height: 100%;
-     }
-    
+}
 }
