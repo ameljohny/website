@@ -13,6 +13,7 @@ import { VideoBackgroundComponent } from './components/video-background/video-ba
 import { AboutComponent } from './components/about/about.component';
 import {GalleryComponent} from './components/gallery/gallery.component';
 import {CounterComponent} from './components/counter/counter.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import {CounterComponent} from './components/counter/counter.component';
     VideoBackgroundComponent,
     AboutComponent,
     GalleryComponent,
-    CounterComponent
+    CounterComponent,
+    ContactComponent
 ],
   imports: [
     BrowserModule,NgbModule.forRoot()
