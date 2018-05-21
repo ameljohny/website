@@ -7,34 +7,68 @@
   color: white;
 }
 
+.booking{
+  margin:0px;
+  background-color:#071e82;
+}
+
 .shape {
   background:  linear-gradient(to bottom, rgba(11,218,255,1) 0%, rgba(23,136,207,1) 100%);
   
-  clip-path: polygon(100% 0%, 90% 75%, 50% 85%, 10% 75%, 0% 0%);
+  clip-path: polygon(100% 0%, 90% 75%, 50% 85%, 10% 0%, 50% 0%);
 }
 
 #ntbrlogo
-{
-    padding-left: 5vw;
-    padding-top: 20px;
+{   width:100px;
+    padding-left: 5px;
+    padding-top: 5px;
 }
 
 #links
-{
-    padding-right: 2vw;
-    padding-top: 10px;
+{   
+    padding-top:10px;
+    font-size: 1.2em;
+    font-weight: 600;
 
+}
+
+#links li a:not(.active):hover{
+  border-bottom:2px solid rgba(7,197,245,1);
+  transition: .1s linear 0s;
+  border-radius:2px;
 }
 
 #linksmobile
 {
     color: black;
     padding-top: 140px;
+
+}
+
+#linksmobile li
+{
+    color: black;
+    list-style-type: none;
+    text-align: left;
+    min-height:50px;
+
+    
+}
+
+#linksmobile li  a
+{
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    font-size:35px;
+    
 }
 #links li a
 {
-    color: white!important;
+    color:white;
     background-color: transparent;
+    padding:5px 0px;
+    margin:3px 1vw;
 }
 
 #linksmobile li a
@@ -52,6 +86,7 @@
 @media screen and (min-width: 0px) and (max-width: 1205px) {
     .shape { display: none; }
     #links { display: none; }
+
   }
 
   @media screen and (min-width: 1206px) and (max-width: 3333px) {
@@ -60,20 +95,21 @@
   }
 
   #toggle {
-    width: 210px;
-    background: #fff;
+    width: 100vw;
+    background: rgba(255,255,255,1);
     margin-top: -72px;
-    height: 100%;
+    height: 100vh;
     z-index: 9000;
   }
 
 
   #nav-icon1 {
-    float: right;
-    width: 40px;
-    height: 30px;
-    margin-right: 2vw;
-    margin-top: -40px;
+    right:20px;
+    top:5px;
+    width: 30px;
+    height: 2px;
+    margin:1vw;
+    position:absolute;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -88,10 +124,10 @@
   #nav-icon1 span {
     display: block;
     position: absolute;
-    height: 9px;
+    height: 7px;
     width: 100%;
     background: #0fbfef;
-    border-radius: 9px;
+    border-radius: 1px;
     opacity: 1;
     left: 0;
     -webkit-transform: rotate(0deg);
@@ -137,4 +173,22 @@
     transform: rotate(-135deg);
   }
   
-  
+  .nv{
+    background-color: rgba(0,0,0,.9);
+    box-shadow: 1px 0px 5px black; 
+    width:100%;
+    position: fixed;
+    padding:0px auto;
+    z-index: 1000;
+    height:60px;
+
+  }
+
+  .active{
+    border-bottom:2px solid rgba(7,197,245,1);
+    border-radius:2px;
+
+    
+  }
+
+ 
