@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-
 import { AppComponent } from './app.component';
 import { LiveComponent } from './components/live/live.component';
 import { NavHorizontalComponent } from './components/nav-horizontal/nav-horizontal.component';
@@ -13,7 +12,10 @@ import { VideoBackgroundComponent } from './components/video-background/video-ba
 import { AboutComponent } from './components/about/about.component';
 import {GalleryComponent} from './components/gallery/gallery.component';
 import {CounterComponent} from './components/counter/counter.component';
+import { ContactComponent } from './components/contact/contact.component';
 import { LoadingComponent } from './components/loading/loading.component';
+import { NavVertContactComponent } from './components/nav-vert-contact/nav-vert-contact.component';
+
 
 
 @NgModule({
@@ -29,7 +31,10 @@ import { LoadingComponent } from './components/loading/loading.component';
     AboutComponent,
     GalleryComponent,
     CounterComponent,
+    ContactComponent,
     LoadingComponent,
+    NavVertContactComponent,
+   
 ],
   imports: [
     BrowserModule,NgbModule.forRoot()

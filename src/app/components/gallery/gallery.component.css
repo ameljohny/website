@@ -65,6 +65,10 @@
   border: 1px solid rgb(44, 168, 226);
   
 }
+.demo-gallery > ul > li a:hover {
+    border: 1px solid rgb(44, 168, 226);
+    
+}
 .demo-gallery > ul > li a > img {
   -webkit-transition: -webkit-transform 0.15s ease 0s;
   -moz-transition: -moz-transform 0.15s ease 0s;
