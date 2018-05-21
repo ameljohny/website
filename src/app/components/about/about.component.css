@@ -7,6 +7,16 @@
     #aboutmobile {display:none!important; }
 }
   
+
+@media screen and (min-width: 0px) and (max-width: 1205px) 
+{
+    #aboutfooter {padding-top: 0px!important;}
+}
+
+#aboutfooter
+{padding-top: 60%;
+}
+
 #aboutmobile 
 { color: white;
     padding: 15px;

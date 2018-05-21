@@ -22,7 +22,12 @@
 #verticallinks li :active{
     color:rgb(244, 255, 96)!important;
     text-decoration: none;
+<<<<<<< HEAD
     
+=======
+    border-left: 10px solid #000;
+    padding-left: -20px!important;
+>>>>>>> 5c7707b61b20a0837d9997f1ad198c1a0dfe9907
 }
 
 
@@ -36,10 +41,17 @@
 }
 
 #a1:hover,#a2:hover,#a3:hover,#a4:hover,#a5:hover{
+<<<<<<< HEAD
     color:rgb(57, 230, 230)!important;
     text-decoration: none;
     border-left: 5px solid rgba(251, 255, 34, 0);
    
+=======
+
+    text-decoration: none;
+    border-left: 10px solid #000;
+    padding-left: -20px!important;
+>>>>>>> 5c7707b61b20a0837d9997f1ad198c1a0dfe9907
 }
 
 .hoverclass
