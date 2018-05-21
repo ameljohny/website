@@ -14,6 +14,13 @@
 
 
 }
+.abt{
+    width:100vw;
+    height:100vh;
+    margin:0px;
+    padding:0px;
+  
+}
 
 .left
 {   position:absolute;
@@ -32,6 +39,7 @@
 .left p, #aboutmobile p{
     font-family:'Roboto';
     font-weight: normal;
+    text-align:justify;
 
 }
 
@@ -50,7 +58,7 @@
 .right
 {   position:absolute;
 
-    width: 40vw;
+    width: 30vw;
     height: 70vh;
     top: 20vh;
     left:65vw;
@@ -62,17 +70,18 @@
 
 #aboutmobile h1{
     color: white;
-    border-left: #1ba8d3 solid 20px;
+    border-left: #1ba8d3 solid 5px;
     padding-left: 10px;
 }
 .lefthead
-{
+{   
     position: absolute;
     top: 18vh;
     left: 5vw;
     color: white;
-    border-left: #1ba8d3 solid 20px;
+    border-left: #1ba8d3 solid 5px;
     padding-left: 10px;
+    margin:5px;
 }
 
 ::-webkit-scrollbar-thumb {
