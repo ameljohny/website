@@ -13,9 +13,7 @@ background: #1ba8d3; /* Old browsers */
     z-index: 10;
     transition: .2s ease-out .2s;
 }
-#verticalnav:hover{
 
-}
 
 
 #verticallinks li{
@@ -27,6 +25,7 @@ background: #1ba8d3; /* Old browsers */
     color:#000!important;
     text-decoration: none;
     border-left: 10px solid #000;
+    padding-left: -20px!important;
 }
 
 
@@ -39,10 +38,10 @@ background: #1ba8d3; /* Old browsers */
 }
 
 #a1:hover,#a2:hover,#a3:hover,#a4:hover,#a5:hover{
-    color:#000!important;
-    text-decoration: none;
 
+    text-decoration: none;
     border-left: 10px solid #000;
+    padding-left: -20px!important;
 }
 
 .hoverclass
