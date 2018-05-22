@@ -19,8 +19,8 @@
 
 #aboutmobile 
 { color: white;
-    padding: 15px;
- padding-top: 65px;
+  padding: 15px;
+  padding-top: 65px;
 
 
 }
@@ -43,6 +43,11 @@
     font-family:'Roboto';
     font-weight: normal;
 
+}
+
+.left ul li, #aboutmobile ul li{
+    font-family:'Roboto';
+    font-weight: normal;
 }
 
 .left h2, #aboutmobile h2{
