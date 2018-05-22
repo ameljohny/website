@@ -41,7 +41,7 @@ import { NavVertContactComponent } from './components/nav-vert-contact/nav-vert-
   imports: [
     BrowserModule,NgbModule.forRoot(),Ng2PageScrollModule
   ],
-  providers: [],
+  providers: [Ng2PageScrollModule],
   
   bootstrap: [AppComponent]
 })

@@ -6,9 +6,7 @@
 
 }
 }
-@media screen and (min-height:768px) {
-  overflow-y: scroll;
-}
+
 /* TABLE */
 .table  {border-collapse:collapse;border-spacing:0;border-color:#15151e;}
 .table td{font-family:Arial, sans-serif;font-size:10px;padding:10px 5px;border-style:solid;overflow:hidden;word-break:normal;border-color:#aabcfe;color:rgb(226, 226, 226);background-color:#15151e;}
@@ -232,7 +230,14 @@
   /* MOBILE_480 */
   @media screen and (max-width:480px){
     .page-accordion{
-      height: 120vh;;
+      height: 100vh;;
+    }
+    .accordion-container{
+      height: 40vh;
+    
+    }
+    .winnerimg{
+      max-height: 150px;
     }
     .accordion{
       width: 220vw;
@@ -242,7 +247,7 @@
     }
     .activetabs{
       width: 100vw;
-      padding:5px  5px  0 5px;
+      padding-top:5px;
     }
   }
 
@@ -259,7 +264,7 @@
     }
     
     .accordion-container{
-      min-height: 450px;
+      min-height: 350px;
       overflow-x: scroll;
     }
     .accordion{
