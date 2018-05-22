@@ -1,28 +1,16 @@
-import { Component, OnInit, Inject, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { Button } from 'protractor';
-import { DOCUMENT } from '@angular/common';
-import { PageScrollService, PageScrollInstance } from 'ng2-page-scroll';
 
-import { PageScrollConfig } from 'ng2-page-scroll';
+
 @Component({
   selector: 'app-accordion',
   templateUrl: './accordion.component.html',
   styleUrls: ['./accordion.component.css']
 })
 export class AccordionComponent implements OnInit {
-  @ViewChild('accordion')
-  public container: ElementRef;
 
-  constructor(@Inject(DOCUMENT) private document: any, private pageScrollService: PageScrollService) { }
-  public scrollHorizontalto() {
-    const pageScrollInstance: PageScrollInstance = PageScrollInstance.newInstance({
-      document: this.document,
-      scrollTarget: '.activetabs',
-      scrollingViews: [this.container.nativeElement],
-      verticalScrolling: false
-    });
-    this.pageScrollService.start(pageScrollInstance);
-  }
+  constructor() { }
+  
 
   // public scrollHorizontal() {
   //   const pageScrollInstance: PageScrollInstance = PageScrollInstance.newInstance({
@@ -42,7 +30,6 @@ export class AccordionComponent implements OnInit {
     const current = document.getElementsByClassName('activetabs');
     current[0].className = current[0].className.replace('activetabs', 'inactivetabs');
     this.className = this.className.replace('inactivetabs', 'activetabs');
-    this.scrollHorizontalto();
     });
   }
 //   // Get the modal

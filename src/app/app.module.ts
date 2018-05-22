@@ -30,7 +30,7 @@ const appRoutes: Routes = [
   { path: 'AboutComponent',      component: AboutComponent },
   { path: 'ContactComponent', component: ContactComponent },
   { path: 'GalleryComponent', component: GalleryComponent },
-  { path: '/', component: LandingpageComponent },
+  { path: '', component: LandingpageComponent },
   { path: '**', component: LoadingComponent }
 ];
 
