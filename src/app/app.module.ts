@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
+import {Ng2PageScrollModule} from 'ng2-page-scroll';
 import { NavHorizontalComponent } from './components/nav-horizontal/nav-horizontal.component';
 import { NavVerticalComponent } from './components/nav-vertical/nav-vertical.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -38,7 +39,7 @@ import { NavVertContactComponent } from './components/nav-vert-contact/nav-vert-
    
 ],
   imports: [
-    BrowserModule,NgbModule.forRoot()
+    BrowserModule,NgbModule.forRoot(),Ng2PageScrollModule
   ],
   providers: [],
   

@@ -4,7 +4,6 @@
   position: relative;
   margin: 0;
   padding: 0;
-  background-color: rgba(0, 0, 0, 0.226);
   height:100vh;
   overflow:hidden;
 }
@@ -211,6 +210,7 @@
   .vidbg{
     margin: 0;
     padding: 0;
+    background-image:url('assets/liveimgs/mainback.jpg');
   
   }
 
@@ -220,6 +220,7 @@
     z-index:-2000;
     position:absolute;
    filter: brightness(.5);  
+   display: none;
   
   }
   .sx{

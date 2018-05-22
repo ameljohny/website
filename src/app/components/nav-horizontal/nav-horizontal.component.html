@@ -4,11 +4,11 @@
 
    
     <ul id="links" class="nav navbar-nav navbar-right">
-      <li><a href="#" class="active">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Gallery</a></li>
-      <li><a href="#">Contact</a></li>
-      <li class="booking"><a href="#" id="but">Buy Tickets</a></li>
+      <li><a pageScroll href="#loadingpage" class="active">Home</a></li>
+      <li><a pageScroll href="#livepage">live</a></li>
+      <li><a pageScroll [routerLink]="['live']" href="#accordionpage">accordion</a></li>
+      <li><a pageScroll href="#footer">footer</a></li>
+      <li class="booking"><a id="but">Buy Tickets</a></li>
     </ul>
 
 </nav>
