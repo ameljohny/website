@@ -6,10 +6,6 @@
   padding: 0;
   height:100vh;
   overflow:hidden;
-  background: url("/assets/Nehru-Trophy-Boat-Race.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-
 }
 
 #video-background {
