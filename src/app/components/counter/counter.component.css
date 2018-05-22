@@ -3,8 +3,8 @@ position: absolute;
 left: -310px;
 color: antiquewhite;
 margin: 0;
-width:620px;
-transform: scale(.8);
+max-width:620px;
+transform: scale(.7);
 }
 
 @media screen and (max-width:768px){
