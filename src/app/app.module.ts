@@ -9,6 +9,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { VideoBackgroundComponent } from './components/video-background/video-background.component';
 import { AboutComponent } from './components/about/about.component';
 import { LoadingComponent } from './components/loading/loading.component';
+import { SocialComponent } from './components/social/social.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { LoadingComponent } from './components/loading/loading.component';
     VideoBackgroundComponent,
     AboutComponent,
     LoadingComponent,
+    SocialComponent,
 ],
   imports: [
     BrowserModule
