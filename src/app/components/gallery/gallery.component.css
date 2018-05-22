@@ -52,7 +52,7 @@
 .demo-gallery > ul > li {
   padding:0px;
   margin:0px;
-  max-width:250px;
+  max-width:200px;
 }
 .demo-gallery > ul > li a {
   border: 1px solid rgb(32, 3, 49);
@@ -61,10 +61,10 @@
   position: relative;
   float: left;
 }
-.demo-gallery > ul > li a:hover {
+/* .demo-gallery > ul > li a:hover {
   border: 1px solid rgb(44, 168, 226);
   
-}
+} */
 .demo-gallery > ul > li a > img {
   -webkit-transition: -webkit-transform 0.15s ease 0s;
   -moz-transition: -moz-transform 0.15s ease 0s;
