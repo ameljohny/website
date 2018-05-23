@@ -106,9 +106,9 @@ margin:0px;
 
 
 .leftcontainer{
-  height: 60%;
+  max-height: 60%;
   margin:0px;
-  padding: 0px;
+  padding: 0px 0px 5% 0px;
   text-align:center;
   /* border:1px solid rgba(85, 70, 109); */
 }
@@ -118,6 +118,7 @@ margin:0px;
   text-align:justify;
   padding:0px 30px;
   font-size:1em;
+  margin:5px;
 }
 .rightcontainer{
   height:60%;
@@ -134,6 +135,7 @@ margin:0px;
   
 }
 .newsfeeds{
+  cursor: pointer;
   overflow-y:scroll;
   height:97%;
   background: #2c2c3d;
@@ -182,7 +184,7 @@ app-counter{
 }
 .readmore a{
   text-decoration: none;
-  font-size:1.2em;
+  font-size:1.1em;
   color:#6cccad;
   font-weight:bold;
   margin:0px;
@@ -289,3 +291,48 @@ app-counter{
       box-sizing: content-box;
 }
 }
+@media screen and (min-width: 768px) and (max-width:1024px) {
+   
+  .container{
+    margin: 0;
+    padding: 70px 20px 5px 20px;
+    height: 100vh;
+    padding:1%;
+    width: 100vw;
+    display: block;
+    }
+    .introimg{
+      max-width:300px;
+    }
+    .leftcontainer{
+      height: 40%;
+      width: 100%;
+      margin: 0;
+      padding:15% 5%;
+      text-align: center;
+    }
+    .counterdiv{
+      height:25%;
+      background-size:200% 200%;
+    }
+    .container p{
+      padding:0px;  
+    }
+    .rightcontainer{
+      width: 100%;
+      margin: 0;
+      height:35%;
+    }
+    .content{
+      height:80%;
+      width: 100%;
+      display: block;
+    }
+    .newsfeedscontainer{
+      margin:0px auto;
+      width: 80%;
+      background: #ffffff;
+      box-sizing: content-box;
+
+}
+} 

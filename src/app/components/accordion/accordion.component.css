@@ -121,6 +121,7 @@
     justify-content: stretch;
     overflow-x: hidden;
     background-color: #15151e;
+    cursor: pointer;
   }
   .tabs{
     -webkit-transition: all 0.5s 0.2s;
@@ -222,6 +223,7 @@
     margin-top: 20px;
     text-align: center;
     width: 100vw;
+    cursor: pointer;
   }
   .see-more a{
     color: #FFF;

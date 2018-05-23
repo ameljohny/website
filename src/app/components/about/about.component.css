@@ -1,6 +1,7 @@
 @media screen and (min-width: 0px) and (max-width: 1205px) {
     #aboutdesktop {display:none!important; }
     #aboutfooter {padding-top: 0px!important;}
+    #aboutfooter {padding-top: 0px!important;}
 }
 
 @media screen and (min-width: 1206px) and (max-width: 3335px) {
@@ -8,28 +9,20 @@
 }
   
 
-@media screen and (min-width: 0px) and (max-width: 1205px) 
-{
-    #aboutfooter {padding-top: 0px!important;}
-}
+
 
 #aboutfooter
 {padding-top: 60%;
 }
-
+#aboutdesktop{
+    background-color:#15151e;
+}
 #aboutmobile 
 { color: white;
-    padding: 15px;
- padding-top: 65px;
+  padding: 15px;
+  padding-top: 65px;
+  background-image: url("../../../assets/backgroundBKP.jpg")
 
-
-}
-.abt{
-    width:100vw;
-    height:100vh;
-    margin:0px;
-    padding:0px;
-  
 }
 
 .left
@@ -49,8 +42,12 @@
 .left p, #aboutmobile p{
     font-family:'Roboto';
     font-weight: normal;
-    text-align:justify;
 
+}
+
+.left ul li, #aboutmobile ul li{
+    font-family:'Roboto';
+    font-weight: normal;
 }
 
 .left h2, #aboutmobile h2{
@@ -68,7 +65,7 @@
 .right
 {   position:absolute;
 
-    width: 30vw;
+    width: 40vw;
     height: 70vh;
     top: 20vh;
     left:65vw;
@@ -84,14 +81,13 @@
     padding-left: 10px;
 }
 .lefthead
-{   
+{
     position: absolute;
     top: 18vh;
     left: 5vw;
     color: white;
     border-left: #1ba8d3 solid 5px;
     padding-left: 10px;
-    margin:5px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -102,4 +98,3 @@
 ::-webkit-scrollbar-track {
     background-color:none;
 }
- 

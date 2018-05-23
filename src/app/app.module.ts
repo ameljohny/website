@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import {Ng2PageScrollModule} from 'ng2-page-scroll';
 
 import { LoadingComponent } from './components/loading/loading.component';
-import { NavHorizontalComponent } from './components/nav-horizontal/nav-horizontal.component';
 import { LandingpageComponent } from './components/landingpage/landingpage.component';
 import { VideoBackgroundComponent } from './components/video-background/video-background.component';
 
@@ -38,7 +37,6 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     LoadingComponent,
-    NavHorizontalComponent,
     LandingpageComponent,
     VideoBackgroundComponent,
     AboutComponent,
