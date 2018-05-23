@@ -117,7 +117,7 @@ margin:0px;
   font-family:raleway;
   text-align:justify;
   padding:0px 30px 10px 0px;
-  font-size:1em;
+  font-size:1.1em;
   margin:5px;
 }
 .rightcontainer{
@@ -315,12 +315,13 @@ app-counter{
       height:25%;
       background-size:200% 200%;
     }
-    .container p{
-      padding:0px;  
+    .leftcontainer p{
+     
+      font-size:1.5em; 
     }
     .rightcontainer{
       width: 100%;
-      margin: 0;
+      margin:2% 0px;
       height:30%;
     }
     .content{
