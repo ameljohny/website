@@ -1,3 +1,9 @@
+.activetabs{
+  border-bottom:2px solid rgb(41, 170, 221) !important; 
+  background-color:rgb(25, 13, 29) !important; 
+ 
+ 
+}
 .galo{
   background-color: #15151e;
   width:100vw;
@@ -35,7 +41,6 @@
   border-bottom:20px solid rgba(0, 0, 0, 0.61);
   border-radius:0px 0px 10px 10px;
   padding:1% 5%;
-
 }
 
 
@@ -215,12 +220,6 @@ ul.dm{
 
 
 
-.ditems:focus{
-  border-bottom:2px solid rgb(41, 170, 221); 
-  background-color:rgb(25, 13, 29); 
- 
- 
-}
 .ditems:hover{
   background-color:rgb(25, 13, 29); 
 }

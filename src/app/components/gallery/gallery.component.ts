@@ -12,6 +12,17 @@ export class GalleryComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    const header = document.getElementById('years');
+    const tabs = header.getElementsByClassName('ditems');
+    for (let i = 0; i < tabs.length; i++) {
+    tabs[i].addEventListener('click', function() {
+    const current = document.getElementsByClassName('activetabs');
+    current[0].className = current[0].className.replace('activetabs', 'inactivetabs');
+    this.className = this.className.replace('inactivetabs', 'activetabs');
+    })
+  }
+
+
     $('#gallery17').lightGallery({
       videojs: true
   });
