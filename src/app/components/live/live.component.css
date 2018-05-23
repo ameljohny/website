@@ -98,7 +98,7 @@ margin:0px;
 }
 
 .introimg{
-  max-width:600px;
+  max-width:400px;
   margin:0px;
 
 
@@ -116,7 +116,7 @@ margin:0px;
   color:rgb(211, 195, 219);
   font-family:raleway;
   text-align:justify;
-  padding:0px 30px;
+  padding:0px 30px 10px 0px;
   font-size:1em;
   margin:5px;
 }
@@ -175,10 +175,10 @@ app-counter{
   margin:10px;
 }
 .readmore{
-  border: 1px solid #fbff0f2a;
+  border: 1px solid #fbff0f4d;
   position:absolute;
   bottom:10px;
-  right:3%;
+  right:6%;
   transition:.3s ease-out .2s;
   padding:3px 20px;
 }
@@ -252,13 +252,13 @@ app-counter{
   .container{
     margin: 0;
     padding: 70px 20px 5px 20px;
-    height: 200vh;
+    height: 160vh;
     padding:1%;
     width: 100vw;
     display: block;
     }
     .introimg{
-      max-width:300px;
+      max-width:200px;
     }
     .leftcontainer{
       height: 40%;
@@ -268,7 +268,7 @@ app-counter{
       text-align: center;
     }
     .counterdiv{
-      height:20%;
+      height:22%;
       background-size:200% 200%;
     }
     .container p{
@@ -308,7 +308,7 @@ app-counter{
       height: 40%;
       width: 100%;
       margin: 0;
-      padding:15% 5%;
+      padding:10% 5%;
       text-align: center;
     }
     .counterdiv{
@@ -321,7 +321,7 @@ app-counter{
     .rightcontainer{
       width: 100%;
       margin: 0;
-      height:35%;
+      height:30%;
     }
     .content{
       height:80%;
