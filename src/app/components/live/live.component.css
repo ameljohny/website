@@ -128,10 +128,13 @@ margin:0px;
 }
 
 .newsfeedscontainer{
+  position: relative;
   padding:0px;
   width: 100%;
   height: 90%;
+  overflow-y:scroll;
   box-sizing: content-box;
+  overflow: -moz-scrollbars-vertical;
   
 }
 .newsfeeds{

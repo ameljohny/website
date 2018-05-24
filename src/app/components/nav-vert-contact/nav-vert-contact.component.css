@@ -17,6 +17,8 @@
 #verticallinks li{
     padding-top: 15px;
     font-weight: bold;
+    cursor:pointer;
+
 }
 
 #verticallinks li :active{

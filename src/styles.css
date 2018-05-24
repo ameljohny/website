@@ -15,10 +15,7 @@ body{
   width: 100%;
 }
 /* width */
-::-webkit-scrollbar {
-    width:0px;
- 
-}
+
 
 /* Track */
 ::-webkit-scrollbar-track {

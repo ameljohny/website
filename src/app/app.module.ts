@@ -21,7 +21,8 @@ import { AccordionComponent } from './components/accordion/accordion.component';
 
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { RouterModule, Routes } from '@angular/router'; 
+import { RouterModule, Routes } from '@angular/router';
+import { Page1Sec2Component } from './components/page1-sec2/page1-sec2.component'; 
 
 
 const appRoutes: Routes = [
@@ -47,7 +48,8 @@ const appRoutes: Routes = [
     NavVerticalComponent,
     NavVertContactComponent,
     CounterComponent,
-    GalleryComponent
+    GalleryComponent,
+    Page1Sec2Component
    
 ],
   imports: [
