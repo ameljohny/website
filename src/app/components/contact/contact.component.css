@@ -122,4 +122,24 @@
     font-size:1.1em;
     padding:5px;
 }
+.fbbut {
+    margin: 10px auto;
+    background-color: #ff662a00;
+    transition: 0.2s ease-out 0.1s;
+    opacity: 1 !important;
+    border: 1px solid rgba(7, 197, 245, 1);
+    box-sizing: content-box;
+    cursor:pointer;
+    padding:10px;
+    /* border-radius:15px 0px 50px 20%; */
+  }
 
+  .fbbut a{
+      color:white;
+      margin:0px;
+  }
+  
+  .fbbut:hover {
+    background: linear-gradient(-45deg, #185b9db9, #43cea2be);
+    border-radius: 50px;
+  }
