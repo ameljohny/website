@@ -21,7 +21,6 @@ import { FooterComponent } from './components/footer/footer.component';
 import { Page1Sec2Component } from './components/page1-sec2/page1-sec2.component';
 import { Page1Sec3Component } from './components/page1-sec3/page1-sec3.component';
 
-
 const appRoutes: Routes = [
   { path: 'LandingpageComponent', component: LandingpageComponent },
   { path: 'AboutComponent',      component: AboutComponent },
