@@ -1,12 +1,12 @@
 .clock{
-position: absolute;
-left: -310px;
-color: antiquewhite;
-margin: 0;
 width:620px;
 transform: scale(.8);
 }
 
 @media screen and (max-width:768px){
     .clock{transform: scale(.5);}
+  }
+
+  .flip-clock-divider .flip-clock-label{
+    color: white !important;
   }

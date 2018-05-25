@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+declare var $;
 @Component({
   selector: 'app-video-background',
   templateUrl: './video-background.component.html',
@@ -10,6 +10,7 @@ export class VideoBackgroundComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-  }
 
+  }
+ 
 }
