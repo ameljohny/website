@@ -42,3 +42,7 @@ body{
   -o-transition: width 0.5s 0.2s ease-in-out;
   transition: width 0.5s 0.2s ease-in-out;
 }
+
+.flip-clock-divider .flip-clock-label{
+  color:white;
+}
