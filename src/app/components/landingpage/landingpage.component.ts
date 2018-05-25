@@ -1,7 +1,5 @@
 
 import { Component, Input, OnInit } from '@angular/core';
-import { LiveComponent } from '../live/live.component';
-import { CounterComponent } from '../counter/counter.component';
 declare var $: any;
 @Component({
   selector: 'app-landingpage',
