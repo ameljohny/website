@@ -20,6 +20,7 @@ import { FooterComponent } from './components/footer/footer.component';
 
 import { Page1Sec2Component } from './components/page1-sec2/page1-sec2.component';
 import { Page1Sec3Component } from './components/page1-sec3/page1-sec3.component';
+import { VideoBackgroundComponent } from './components/video-background/video-background.component';
 
 const appRoutes: Routes = [
   { path: 'LandingpageComponent', component: LandingpageComponent },
@@ -43,6 +44,7 @@ const appRoutes: Routes = [
     GalleryComponent,
     Page1Sec2Component,
     Page1Sec3Component,
+    VideoBackgroundComponent
 
    
 ],

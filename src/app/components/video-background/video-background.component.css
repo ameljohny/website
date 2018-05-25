@@ -1,0 +1,24 @@
+
+#overlay
+{   position: fixed;
+    background-color: rgba(50, 58, 8, 0.397);
+    z-index: -10;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -10;
+  
+}
+
+video[poster]{
+    background-size:cover;
+    }
