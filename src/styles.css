@@ -11,6 +11,7 @@ body{
   padding:0px;
   letter-spacing: 0.0625em;
   width: 100%;
+  color: #fff;
 }
 /* width */
 
@@ -34,3 +35,10 @@ body{
 
 }
 
+.transition-width{
+  -webkit-transition: width 0.5s 0.2s;
+  -webkit-transition-delay: ease-in-out;
+  -moz-transition: width 0.5s 0.2s ease-in-out;
+  -o-transition: width 0.5s 0.2s ease-in-out;
+  transition: width 0.5s 0.2s ease-in-out;
+}
