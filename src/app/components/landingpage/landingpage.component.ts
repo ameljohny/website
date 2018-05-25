@@ -1,6 +1,5 @@
 
 import { Component, Input, OnInit } from '@angular/core';
-import { AccordionComponent } from '../accordion/accordion.component';
 import { LiveComponent } from '../live/live.component';
 import { CounterComponent } from '../counter/counter.component';
 declare var $: any;

@@ -10,6 +10,7 @@
     border-collapse: collapse;
     border-spacing: 0;
     border-color: #15151e;
+    margin: 0px;
   }
   .table td {
     font-family: Arial, sans-serif;
@@ -47,8 +48,15 @@
     vertical-align: top;
   }
   /* The Modal (background) */
+ #myModal{
+  display: none; /* Hidden by default */
+ }
+ .glyphicon-remove-sign{
+   position: absolute;
+   top:5px;
+   right:5px;
+ }
   .modal {
-    display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     left: 0;
@@ -58,6 +66,7 @@
     overflow-y: scroll; /* Enable scroll if needed */
     background-color: rgb(0, 0, 0); /* Fallback color */
     background-color: rgba(39, 8, 8, 0.4); /* Black w/ opacity */
+    padding-bottom: 100px;
   }
   
   /* Modal Content/Box */
@@ -66,7 +75,6 @@
     margin: 3% auto; /* 15% from the top and centered */
     border: 1px solid #888;
     width: 90%; /* Could be more or less, depending on screen size */
-    overflow-y: hidden;
   }
   
   /* The Close Button */
@@ -323,9 +331,10 @@
   /* MOBILE_768 */
   @media screen and (max-width: 768px) {
     .page-accordion {
+      max-width: 100vw;
       color: #fff;
       width: 100vw;
-      justify-content: stretch;
+      justify-content: center;
       align-content: space-around;
     }
     .textbox {
