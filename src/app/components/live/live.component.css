@@ -141,9 +141,6 @@ margin:0px;
 }
 
 
-.counter_divider{
-  padding: 2px 0;
-}
 .clock{
   transform-origin: 0 0;
   transform: scale(.5);
@@ -163,18 +160,9 @@ margin:0px;
     margin-left: 50%;
     overflow: hidden;
 }
-.counterdiv{
-  width:100%;
-  background-image: url('assets/water.gif');
-  height: 40%;
-  text-align: center;
-  background-size:cover;
-  background-position-y: 10%;
-  padding:0px;
-}
 
 .countr{
-  height:105px;
+  height:155px;
 }
 .counterdiv h2{
   font-size:2.5em;
@@ -258,9 +246,18 @@ margin:0px;
   background: linear-gradient(-45deg, #185a9d, #43cea2);
 }
 .counterdiv{
-  max-height:20%;
-  background-size:200% 200%;
-  font-size:.7em;
+  width:100%;
+  background-image: url('assets/water.gif');
+  height:200px;
+  text-align: center;
+  background-size:cover;
+  background-position-y: 10%;
+  padding:0px 0 10px 0;
+}
+@media screen and (min-width:769px){
+ .counterdiv{
+  height: 40%;
+ }
 }
 @media screen and (max-width:768px){
   .container{

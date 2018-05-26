@@ -15,8 +15,11 @@ import {CounterComponent} from './components/counter/counter.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { LoadingComponent } from './components/loading/loading.component';
 import { NavVertContactComponent } from './components/nav-vert-contact/nav-vert-contact.component';
+import { RouterModule, Routes } from '@angular/router';
 
-
+const routes: Routes = [
+  { path: '', component: FooterComponent, outlet: 'footer' },
+]
 
 @NgModule({
   declarations: [
@@ -37,7 +40,7 @@ import { NavVertContactComponent } from './components/nav-vert-contact/nav-vert-
    
 ],
   imports: [
-    BrowserModule,NgbModule.forRoot()
+    BrowserModule,NgbModule.forRoot(),RouterModule.forRoot(routes)
   ],
   providers: [],
   
