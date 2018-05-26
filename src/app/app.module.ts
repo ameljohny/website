@@ -1,10 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
+import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { LiveComponent } from './components/live/live.component';
 import { NavHorizontalComponent } from './components/nav-horizontal/nav-horizontal.component';
 import { NavVerticalComponent } from './components/nav-vertical/nav-vertical.component';
@@ -13,18 +13,17 @@ import { LandingpageComponent } from './components/landingpage/landingpage.compo
 import { FooterComponent } from './components/footer/footer.component';
 import { VideoBackgroundComponent } from './components/video-background/video-background.component';
 import { AboutComponent } from './components/about/about.component';
-import {GalleryComponent} from './components/gallery/gallery.component';
-import {CounterComponent} from './components/counter/counter.component';
+import { GalleryComponent} from './components/gallery/gallery.component';
+import { CounterComponent} from './components/counter/counter.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { LoadingComponent } from './components/loading/loading.component';
 import { NavVertContactComponent } from './components/nav-vert-contact/nav-vert-contact.component';
-import { RouterModule, Routes } from '@angular/router';
-
-const routes: Routes = [
-  { path: '', component: FooterComponent, outlet: 'footer' }
-      ];
 
 @NgModule({
+
+  imports: [
+    BrowserModule, NgbModule.forRoot(), RouterModule.forRoot([]),
+  ],
   declarations: [
     AppComponent,
     LiveComponent,
@@ -41,9 +40,6 @@ const routes: Routes = [
     LoadingComponent,
     NavVertContactComponent
 ],
-  imports: [
-    BrowserModule, NgbModule.forRoot(), AppRoutingModule
-  ],
   providers: [],
   bootstrap: [AppComponent]
 })

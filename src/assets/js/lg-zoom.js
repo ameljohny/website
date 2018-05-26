@@ -1,4 +1,4 @@
-/**!
+﻿/**!
  * lg-zoom.js | 1.0.1 | December 22nd 2016
  * http://sachinchoolur.github.io/lg-zoom.js
  * Copyright (c) 2016 Sachin N; 

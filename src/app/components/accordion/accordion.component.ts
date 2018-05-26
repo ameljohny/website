@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Injectable } from '@angular/core';
 import { Button } from 'protractor';
-
+Injectable()
 @Component({
   selector: 'app-accordion',
   templateUrl: './accordion.component.html',

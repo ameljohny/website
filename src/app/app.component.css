@@ -1,21 +1,11 @@
-
-
-#site-content {
-    width:100vw;
-    margin:0px;
-    padding:0px;
+app-root{
 	position: relative;
-	z-index: 1;
-	-webkit-box-shadow: rgb(32, 32, 32) 0 7px 10px 0;
-	-moz-box-shadow: rgb(32, 32, 32) 0 7px 10px 0;
-	box-shadow: rgb(32, 32, 32) 0 7px 10px 0;
-  
 }
 
 #site-footer {
 	margin:0px;
-	position:fixed;
-	z-index:-150;
+	position:absolute;
+	z-index:-50;
 	width:100vw;
 	bottom: 0;
 }

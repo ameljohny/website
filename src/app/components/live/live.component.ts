@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Injectable } from '@angular/core';
 declare var $ ;
 declare var moment;
+Injectable()
 @Component({
   selector: 'app-live',
   templateUrl: './live.component.html',
