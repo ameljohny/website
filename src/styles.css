@@ -1,1 +1,44 @@
-/* You can add global styles to this file, and also import other style files */
+html{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  font-family: Jura;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:0px;
+  padding:0px;
+  letter-spacing: 0.0625em;
+  width: 100%;
+}
+/* width */
+::-webkit-scrollbar {
+    width:0px;
+ 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 2px #262635;
+    background: #383b4b; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+   background: #8e95b1; 
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background:rgb(173, 196, 202); 
+    transition: 1s linear 0s;
+
+}
+
+.flip-clock-wrapper {
+    position: relative;
+    }

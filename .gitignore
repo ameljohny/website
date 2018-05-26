@@ -34,6 +34,13 @@ yarn-error.log
 testem.log
 /typings
 
+<<<<<<< HEAD
+=======
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+>>>>>>> c7da070b97a69b3adf324d833249f4aab6223901
 # System Files
 .DS_Store
 Thumbs.db
