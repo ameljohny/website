@@ -144,12 +144,24 @@ margin:0px;
 .counter_divider{
   padding: 2px 0;
 }
-app-counter{
-  position: relative;
-  top: 0;
-  left: 0;
-  padding: 0;
-
+.clock{
+  transform-origin: 0 0;
+  transform: scale(.5);
+  -ms-transform: scale(.5);
+  -webkit-transform-origin: 0 0;
+  -webkit-transform: scale(.5);
+  -o-transform-origin: 0 0;
+  -o-transform: scale(.5);
+  -moz-transform-origin: 0 0;
+  -moz-transform: scale(.5);
+  position: relative !important;
+  padding-top: 0px;
+  height:100px;
+  width: 620px;
+  margin: auto;
+  left: -155px;
+    margin-left: 50%;
+    overflow: hidden;
 }
 .counterdiv{
   width:100%;
@@ -250,7 +262,7 @@ app-counter{
   background-size:200% 200%;
   font-size:.7em;
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:768px){
   .container{
     margin: 0;
     padding: 70px 20px 5px 20px;
