@@ -1,7 +1,7 @@
 
 #overlay
 {   position: fixed;
-    background-color: rgba(50, 58, 8, 0.397);
+    background-color: rgba(0, 0, 0, 0.397);
     z-index: -10;
     right: 0;
     bottom: 0;

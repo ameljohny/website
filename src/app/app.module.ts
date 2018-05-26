@@ -3,8 +3,6 @@ import { NgModule } from '@angular/core';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import {Ng2PageScrollModule} from 'ng2-page-scroll';
-
-import { LoadingComponent } from './components/loading/loading.component';
 import { LandingpageComponent } from './components/landingpage/landingpage.component';
 
 
@@ -28,13 +26,11 @@ const appRoutes: Routes = [
   { path: 'ContactComponent', component: ContactComponent },
   { path: 'GalleryComponent', component: GalleryComponent },
   { path: '', component: LandingpageComponent },
-  { path: '**', component: LoadingComponent }
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoadingComponent,
     LandingpageComponent,
     AboutComponent,
     ContactComponent,

@@ -228,15 +228,15 @@ ul.dm{
   ul.dm{
       border-radius:0px;
       padding:3%;
-      height:60px;
-      overflow:hidden;
+      height:110px;
+      overflow:scroll;
       transition: 1s ease-out .2s;
     
   }
 
-  ul.dm:hover{
+  /* ul.dm:hover{
       height:100%;
-  }
+  } */
   .dm li{
       display:block;
      
