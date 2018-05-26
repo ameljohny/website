@@ -8,5 +8,5 @@ transform: scale(.8);
 }
 
 @media screen and (max-width:768px){
-    .clock{transform: scale(.5);}
+    .clock{transform: scale(.4);}
   }

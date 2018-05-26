@@ -1,6 +1,6 @@
 
 .container{
-padding:75px 5% 0px 5%;
+padding:60px 5% 0px 5%;
 height: 100vh;
 width: 100vw;
 background-color: #1f1f2c;
@@ -245,47 +245,65 @@ app-counter{
   text-align:center;
   background: linear-gradient(-45deg, #185a9d, #43cea2);
 }
-
-@media screen and (max-width:768px){
+.counterdiv{
+  max-height:20%;
+  background-size:200% 200%;
+  font-size:.7em;
+}
+@media screen and (max-width:480px){
   .container{
     margin: 0;
     padding: 70px 20px 5px 20px;
-    height: 200vh;
+    height: 150vh;
     padding:1%;
     width: 100vw;
     display: block;
     }
     .introimg{
-      max-width:300px;
+      max-width:200px;
     }
     .leftcontainer{
-      height: 40%;
+      height: 45%;
       width: 100%;
       margin: 0;
-      padding:15% 5%;
+      padding:5px;
       text-align: center;
+      
     }
-    .counterdiv{
-      height:20%;
-      background-size:200% 200%;
+    .leftcontainer p{
+
+      padding:5px;
+
+
+     
     }
-    .container p{
-      padding:0px;  
+  
+
+    .counterdiv h2{
+      padding:20px 0px 0px 0px;
+      margin:0px;
     }
+ 
     .rightcontainer{
       width: 100%;
-      margin: 0;
-      height:40%;
+      padding:10px 10px 20px 10px;
+      height:35%;
+
+  
     }
     .content{
-      height:80%;
+      height:60%;
       width: 100%;
       display: block;
     }
+    .countr{
+      height:70px;
+    }
     .newsfeedscontainer{
       margin:0px auto;
-      width: 90%;
+      width: 100%;
       background: #ffffff;
       box-sizing: content-box;
+   
 }
 }
