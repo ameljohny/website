@@ -3,7 +3,7 @@
 padding:60px 5% 0px 5%;
 height: 100vh;
 width: 100vw;
-background-color: #1f1f2c;
+background-color: #15151e;
 margin:0px;
 }
 
@@ -13,7 +13,7 @@ margin:0px;
   justify-content: center;
   align-items: center;
   width: 100%;
-  bottom:7%;
+  bottom:15%;
 }
 .container1{
   position: relative;
@@ -143,20 +143,20 @@ margin:0px;
 
 .clock{
   transform-origin: 0 0;
-  transform: scale(.5);
-  -ms-transform: scale(.5);
+  transform: scale(.6);
+  -ms-transform: scale(.6);
   -webkit-transform-origin: 0 0;
-  -webkit-transform: scale(.5);
+  -webkit-transform: scale(.6);
   -o-transform-origin: 0 0;
-  -o-transform: scale(.5);
+  -o-transform: scale(.6);
   -moz-transform-origin: 0 0;
-  -moz-transform: scale(.5);
+  -moz-transform: scale(.6);
   position: relative !important;
   padding-top: 0px;
   height:100px;
   width: 620px;
   margin: auto;
-  left: -155px;
+  left: -186px;
     margin-left: 50%;
     overflow: hidden;
 }
@@ -173,7 +173,7 @@ margin:0px;
   margin:10px;
 }
 .readmore{
-  border: 1px solid #fbff0f2a;
+  border: 1px solid #0f63ff2a;
   position:absolute;
   bottom:10px;
   right:3%;
@@ -211,12 +211,15 @@ margin:0px;
 .newsfeedscontainer h5{
   margin:0px;
 }
-.newsfeeds{overflow-y:scroll}
+.newsfeeds{
+  overflow-y:scroll;
+  background-color: #15151e;
+}
 .feeds{
   width:100%;
   font-family: Raleway;
   color:rgb(211, 211, 211);
-  border-bottom: 1px solid #6b4177;
+  border-bottom: 1px solid #185b9d44;
   padding:10px 15px;
   margin:0px;
   transition: .2s linear 0s;
@@ -258,8 +261,20 @@ margin:0px;
  .counterdiv{
   height: 40%;
  }
+
 }
 @media screen and (max-width:768px){
+  .clock{
+    transform: scale(.5);
+    -ms-transform: scale(.5);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.5);
+    -o-transform-origin: 0 0;
+    -o-transform: scale(.5);
+    -moz-transform-origin: 0 0;
+    -moz-transform: scale(.5);
+    left: -155px;
+  }
   .container{
     margin: 0;
     padding: 70px 20px 5px 20px;
@@ -287,7 +302,9 @@ margin:0px;
      
     }
   
-
+ .scrollicon{
+   bottom: 7%;
+ }
     .counterdiv h2{
       padding:20px 0px 0px 0px;
       margin:0px;

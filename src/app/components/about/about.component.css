@@ -1,3 +1,4 @@
+
 @media screen and (min-width: 0px) and (max-width: 1205px) {
     #aboutdesktop {display:none!important; }
     #aboutfooter {padding-top: 0px!important;}
@@ -12,15 +13,22 @@
 {
     #aboutfooter {padding-top: 0px!important;}
 }
-
+#aboutdesktop{
+    background-color: #15151e;
+    height: 100vh;
+}
 #aboutfooter
 {padding-top: 60%;
 }
-
+.row{
+    padding: 0;
+    margin: 0;
+}
 #aboutmobile 
 { color: white;
   padding: 15px;
   padding-top: 65px;
+  background-color: #15151e;
 
 
 }
@@ -90,10 +98,6 @@
     padding-left: 10px;
 }
 
-::-webkit-scrollbar-thumb {
-    background: #1ba8d3; 
-    border-radius: 10px;
-}
 
 ::-webkit-scrollbar-track {
     background-color:none;
