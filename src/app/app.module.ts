@@ -19,11 +19,16 @@ import { ContactComponent } from './components/contact/contact.component';
 import { LoadingComponent } from './components/loading/loading.component';
 import { NavVertContactComponent } from './components/nav-vert-contact/nav-vert-contact.component';
 
-@NgModule({
+const appRoutes: Routes = [
+  { path: 'LandingpageComponent', component: LandingpageComponent },
+  { path: 'GalleryComponent', component: GalleryComponent },
+  { path: 'AboutComponent',      component: AboutComponent },
+  { path: 'ContactComponent', component: ContactComponent },
 
-  imports: [
-    BrowserModule, NgbModule.forRoot(), RouterModule.forRoot([]),
-  ],
+  { path: '', component: LandingpageComponent },
+];
+
+@NgModule({
   declarations: [
     AppComponent,
     LiveComponent,
@@ -40,6 +45,12 @@ import { NavVertContactComponent } from './components/nav-vert-contact/nav-vert-
     LoadingComponent,
     NavVertContactComponent
 ],
+  imports: [
+    BrowserModule, NgbModule.forRoot(), RouterModule.forRoot(
+      appRoutes,
+      {}
+    )
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

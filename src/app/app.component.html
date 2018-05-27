@@ -1,38 +1,38 @@
+<div class="nv">
+    <nav class="navbar navbar-expand-lg fixed-top">
+  
+     
+      <ul id="links" class="nav navbar-nav navbar-right">
+        <li><a  routerLink="/LandingpageComponent" routerLinkActive="active">Home</a></li>
+        <li><a  routerLink="/AboutComponent" routerLinkActive="active" >About</a></li>
+        <li><a  routerLink="/ContactComponent" routerLinkActive="active">Contact</a></li>
+        <li><a routerLink="/GalleryComponent" routerLinkActive="active">Gallery</a></li>
+        <li class="booking"><a id="but">Buy Tickets</a></li>
+      </ul>
+  
+  </nav>
+    
 
+  
+  
+  
+  <div id="nav-icon1">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div id="toggle">
+    <ul id="linksmobile">
+        <li><a  routerLink="LandingpageComponent" routerLinkActive="active" class="active">Home</a></li>
+        <li><a  routerLink="AboutComponent" routerLinkActive="active" >About</a></li>
+        <li><a  routerLink="ContactComponent" routerLinkActive="active">Contact</a></li>
+        <li><a routerLink="GalleryComponent" routerLinkActive="active">Gallery</a></li>
+        <li><a id="but">Buy Tickets</a></li>
+    </ul>
+  </div>
 
-<!-- landingpage -->
+  
+  </div>
 
-<div ><app-nav-horizontal></app-nav-horizontal></div>
-
- <router-outlet name='main'></router-outlet>
-
- <div id="site-footer" ><app-footer></app-footer></div>
-
-
-<!-- Contact -->
-
-
-<!-- <app-nav-horizontal></app-nav-horizontal>
-<app-video-background></app-video-background>
-<app-contact></app-contact>
-<app-nav-vert-contact></app-nav-vert-contact>
-<app-footer></app-footer> -->
-
-
-<!-- about -->
-
-<!-- <app-nav-horizontal></app-nav-horizontal>
-<app-video-background></app-video-background>
-<app-about></app-about>
-<app-nav-vertical></app-nav-vertical>
-<app-footer></app-footer> -->
-
-<!-- gallery -->
-<!-- <app-nav-horizontal></app-nav-horizontal>
-<app-gallery></app-gallery>
-<app-footer></app-footer> -->
-
-
-<!-- loadeingpage -->
-
-<!-- <app-loading></app-loading> -->
+  <router-outlet>
+  </router-outlet>

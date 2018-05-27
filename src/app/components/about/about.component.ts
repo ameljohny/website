@@ -1,3 +1,4 @@
+
 import { Component, OnInit } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 
@@ -15,5 +16,3 @@ export class AboutComponent implements OnInit {
   }
 
 }
-
-

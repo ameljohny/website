@@ -7,15 +7,16 @@ import { GalleryComponent } from './components/gallery/gallery.component';
 
 
 const routes: Routes = [
-  { path: 'home', component: LandingpageComponent },
+  { path: ':LandingpageComponent', component: LandingpageComponent },
+  { path: ':GalleryComponent', component: GalleryComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'About',      component: AboutComponent },
-  { path: 'Contact', component: ContactComponent },
-  { path: 'Gallery', component: GalleryComponent },
+  { path: ':AboutComponent',      component: AboutComponent },
+  { path: ':ContactComponent', component: ContactComponent },
+  
 ];
 
 @NgModule({
-  imports: [ RouterModule.forRoot(routes) ],
+  imports: [RouterModule.forRoot(routes)],
   exports: [ RouterModule ]
 })
 export class AppRoutingModule { }

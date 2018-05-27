@@ -1,5 +1,5 @@
 @media screen and (min-width: 0px) and (max-width: 1205px) {
-    #aboutdesktop {display:none!important; }
+    #aboutdesktop {display:none!important; background-color: #15151e;}
     #aboutfooter {padding-top: 0px!important;}
     .left h2, #aboutmobile h2{
         color: #1ba8d3;

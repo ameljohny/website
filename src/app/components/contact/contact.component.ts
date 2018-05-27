@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { NavVertContactComponent } from '../nav-vert-contact/nav-vert-contact.component';
+
 
 @Component({
   selector: 'app-contact',
@@ -10,14 +12,8 @@ export class ContactComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    
-    // function myMap() {
-    //   var mapProp= {
-    //       center:new google.maps.LatLng(9.5054547,76.3440495),
-    //       zoom:5,
-    //   };
-    //   var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-    //   }
+
+
   }
 
 }
