@@ -18,6 +18,8 @@ import { CounterComponent} from './components/counter/counter.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { LoadingComponent } from './components/loading/loading.component';
 import { NavVertContactComponent } from './components/nav-vert-contact/nav-vert-contact.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 const appRoutes: Routes = [
   { path: 'LandingpageComponent', component: LandingpageComponent },
@@ -49,7 +51,7 @@ const appRoutes: Routes = [
     BrowserModule, NgbModule.forRoot(), RouterModule.forRoot(
       appRoutes,
       {}
-    )
+    ), ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
