@@ -1,0 +1,136 @@
+#aboutcontent{
+    color: white;
+    padding-left: 40px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    width:70%;
+    }
+    
+    #aboutcontent p, #aboutcontent ul li{
+        font-family:'Roboto';
+        font-weight: normal;
+    }
+    
+    
+    #aboutcontent h2, #aboutcontent i{
+        color: #1ba8d3;
+    
+    }
+    
+    #aboutcontent h1{
+        color: white;
+        border-left: #1ba8d3 solid 5px;
+        padding-left: 10px;
+    }
+    
+    .abouthead
+    {
+        margin-top: 100px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #verticalnav
+    {   position: fixed;
+        height: 550px;
+        width: 300px;
+        top: 20vh;
+        right: 0px;
+        padding-left:5vw; 
+        font-size: 20px;
+        clip-path: polygon(45% 0%, 100% 0%, 100% 100%, 0% 100%);
+        background: linear-gradient(-45deg, #185a9d, #43cea2);
+        z-index: 10;
+        transition: .2s ease-out .2s;
+    }
+    
+    
+    
+    #verticallinks li{
+        padding-top: 15px;
+        font-weight: bold;
+    }
+    
+    #verticallinks li :active{
+        color:rgb(79, 248, 248)!important;
+        text-decoration: none!important;
+        
+    }
+    
+    
+    
+    #a1,#a2,#a3,#a4,#a5{
+        color:white;
+        transition: all .1s ease;
+        padding-left: 10px;
+        transition:.2s linear 0s;
+        border-left: 1px solid rgba(251, 255, 34, 0);
+    }
+    
+    #a1:hover,#a2:hover,#a3:hover,#a4:hover,#a5:hover{
+        color:rgb(57, 230, 230)!important;
+        text-decoration: none;
+        border-left: 5px solid rgba(251, 255, 34, 0);
+       
+    }
+    
+    .hoverclass
+    {
+        color:rgb(79, 248, 248)!important;
+        text-decoration: none;
+    
+    }
+    
+    
+    #verticallinks
+    {
+        margin-top:180px;
+        margin-left: -5px;
+    }
+    
+    #a1
+    {
+        margin-left: 0px;
+    
+    }
+    
+    
+    #a2
+    {
+        margin-left: -10px;
+    }
+    
+    
+    #a3
+    {
+        margin-left: -20px;
+    }
+    
+    
+    #a4
+    {
+        margin-left: -30px;
+    }
+    
+    
+    #a5
+    {
+        margin-left: -40px;
+    }
+    
+    
+    @media screen and (min-width: 0px) and (max-width: 1205px) {
+        #verticalnav { display: none;  }
+      }
+    
