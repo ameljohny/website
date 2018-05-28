@@ -13,22 +13,15 @@
 {
     #aboutfooter {padding-top: 0px!important;}
 }
-#aboutdesktop{
-    background-color: #15151e;
-    height: 100vh;
-}
+
 #aboutfooter
 {padding-top: 60%;
 }
-.row{
-    padding: 0;
-    margin: 0;
-}
+
 #aboutmobile 
 { color: white;
   padding: 15px;
   padding-top: 65px;
-  background-color: #15151e;
 
 
 }

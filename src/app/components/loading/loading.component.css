@@ -1,5 +1,21 @@
-body {
+#loadbackground {
     background-color: #222;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media screen and (min-width: 0px) and (max-width: 1205px) {
+    #leftimage { width: 75%!important;
+        left: 50%!important;
+        margin-left: -37.5%!important;
+         top: 5%!important;
+        transform: scale(.5)!important; }
+    #rightimage { width: 75%!important;
+        left: 50%!important;
+        margin-left: -37.5%!important;
+         top: 5%!important;
+        transform: scale(.3)!important;
+         top: 60%!important; }
   }
   
   #leftimage

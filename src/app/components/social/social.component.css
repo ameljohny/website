@@ -1,0 +1,30 @@
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+#icon-bar {
+    width: 40px;
+    background-color: #1ba8d3;
+    position: fixed;
+    top: 490px;
+    z-index: 999;
+}
+
+#icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+#icon-bar a:hover {
+    background-color: #000;
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 1205px) {
+    #icon-bar { display: none; }
+  }
+
