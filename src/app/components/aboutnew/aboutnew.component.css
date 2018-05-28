@@ -53,8 +53,8 @@ width:70%;
     font-weight: bold;
 }
 
-#verticallinks li :active{
-    color:rgb(79, 248, 248)!important;
+.aboutactive{
+    color:rgb(57, 230, 230)!important;
     text-decoration: none!important;
     
 }
@@ -76,12 +76,7 @@ width:70%;
    
 }
 
-.hoverclass
-{
-    color:rgb(79, 248, 248)!important;
-    text-decoration: none;
 
-}
 
 
 #verticallinks
