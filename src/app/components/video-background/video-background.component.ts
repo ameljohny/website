@@ -15,7 +15,7 @@ export class VideoBackgroundComponent implements OnInit {
     $('#myVideo').on('canplay', function(event) {
       $(this).removeClass('loading');
       $(this).attr('poster', '');
-      const audioPlayer = <HTMLVideoElement> document.getElementById('myVideo');
+      const audioPlayer = <HTMLVideoElement> document.getElementById( 'myVideo');
       audioPlayer.play();
     });
   }
