@@ -18,6 +18,7 @@ import { NgModule } from '@angular/core';
 import { AccordionComponent } from './components/accordion/accordion.component';
 import { AboutnewComponent } from './components/aboutnew/aboutnew.component';
 import { NavHorizontalComponent } from './components/nav-horizontal/nav-horizontal.component';
+import { LoadingComponent } from './components/loading/loading.component';
 
 const appRoutes: Routes = [
   { path: 'LandingpageComponent', component: LandingpageComponent },
@@ -46,7 +47,8 @@ const appRoutes: Routes = [
     NavVertContactComponent,
     SocialComponent,
     AboutnewComponent,
-    NavHorizontalComponent
+    NavHorizontalComponent,
+    LoadingComponent
 ],
   imports: [
     BrowserModule, NgbModule.forRoot(), RouterModule.forRoot(
