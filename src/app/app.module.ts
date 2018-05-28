@@ -19,6 +19,7 @@ import { environment } from '../environments/environment';
 import { LandingpageComponent } from './components/landingpage/landingpage.component';
 import { NgModule } from '@angular/core';
 import { AccordionComponent } from './components/accordion/accordion.component';
+import { SmoothscrollComponent } from './components/smoothscroll/smoothscroll.component';
 
 const appRoutes: Routes = [
   { path: 'LandingpageComponent', component: LandingpageComponent },
@@ -45,6 +46,7 @@ const appRoutes: Routes = [
     LoadingComponent,
     NavVertContactComponent,
     SocialComponent,
+    SmoothscrollComponent,
 ],
   imports: [
     BrowserModule, NgbModule.forRoot(), RouterModule.forRoot(
