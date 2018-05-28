@@ -8,6 +8,7 @@
   opacity:1!important;
   border:1px solid rgba(7,197,245,1);
   box-sizing:content-box;
+  border-radius:50px;
   /* border-radius:15px 0px 50px 20%; */
 }
 
@@ -97,8 +98,8 @@
     .shape { display: none; }
     #links { display: none; }
     .nv{
-      background-color: rgba(0,0,0,0);
-      opacity:1;
+      background-color:#15151e;
+      opacity:.6;
       position:fixed;
       display:block;
       width:100px;
@@ -197,46 +198,25 @@
   }
   
   .nv{
-    background-color: rgba(0,0,0,0);
-    /*box-shadow: 1px 0px 5px black;*/ 
+    background-color: transparent;
     width:100%;
     position:fixed;
     top:0px;
     padding:0px auto;
     z-index: 1000;
     max-height:60px;
-    opacity:.5;
+    opacity:.8;
     transition:.3s linear .1s;
 
   }
 
   .active{
-     border-bottom:4px solid rgba(7,197,245,1);
+     border-top:4px solid rgba(7,197,245,1);
      transition: 1s ease-in-out .5s;
     
   }
 .nv:hover{
-  opacity:1;
-  background-color: rgba(0,0,0,.8);
+  opacity: 0.8;;
+  background-color: rgba(0, 0, 0, 0.377);
  }
  
-/*
- .sg{
-  padding:0px;
-  height:100%;
-  width:150px;
-  display:none;
-  font-size:40px;
-  position:relative;
-  margin:0px auto;
-  transition:.3s ease-in-out .1s;
-  border-top:5px solid rgba(7,197,245,1);
- }
-
- .booking:hover .sg{
-  display: block;
-   
- }
-.booking:hover #bt{
-  display:none;
-}*/
