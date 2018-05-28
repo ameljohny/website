@@ -62,18 +62,7 @@
 
 
 
-.right
-{   position:absolute;
 
-    width: 40vw;
-    height: 70vh;
-    top: 20vh;
-    left:65vw;
-    z-index:1;
-
-    background-repeat: no-repeat;
-    background-position-x: -20px;
-}
 
 #aboutmobile h1{
     color: white;

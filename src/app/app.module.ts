@@ -21,7 +21,9 @@ import { AccordionComponent } from './components/accordion/accordion.component';
 
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { RouterModule, Routes } from '@angular/router'; 
+import { RouterModule, Routes } from '@angular/router';
+import { AboutnewComponent } from './components/aboutnew/aboutnew.component';
+import { SmoothscrollComponent } from './components/smoothscroll/smoothscroll.component'; 
 
 
 const appRoutes: Routes = [
@@ -47,7 +49,9 @@ const appRoutes: Routes = [
     NavVerticalComponent,
     NavVertContactComponent,
     CounterComponent,
-    GalleryComponent
+    GalleryComponent,
+    AboutnewComponent,
+    SmoothscrollComponent
    
 ],
   imports: [

@@ -1,8 +1,14 @@
 $(document).ready(function(){
-    $( "#toggle" ).hide("slide");
-	$('#nav-icon1').click(function(){
-        $(this).toggleClass('open');
-        $( "#toggle" ).toggle("slide");
-	});
+     $('.js-anchor-link').click(function(e){
+    e.preventDefault();
+    var target = $($(this).attr('href'));
+    if(target.length){
+      var scrollTo = target.offset().top;
+      $('body, html').animate({scrollTop: scrollTo-100+'px'}, 800);
+    }
+  });
+
+
+
 });
 

@@ -1,3 +1,46 @@
+#aboutcontent{
+color: white;
+padding-left: 40px;
+padding-top: 100px;
+padding-bottom: 150px;
+width:70%;
+}
+
+#aboutcontent p, #aboutcontent ul li{
+    font-family:'Roboto';
+    font-weight: normal;
+}
+
+
+#aboutcontent h2, #aboutcontent i{
+    color: #1ba8d3;
+
+}
+
+#aboutcontent h1{
+    color: white;
+    border-left: #1ba8d3 solid 5px;
+    padding-left: 10px;
+}
+
+.abouthead
+{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #verticalnav
 {   position: fixed;
     height: 550px;
@@ -21,7 +64,7 @@
 
 #verticallinks li :active{
     color:rgb(79, 248, 248)!important;
-    text-decoration: none;
+    text-decoration: none!important;
     
 }
 
@@ -90,5 +133,12 @@
 @media screen and (min-width: 0px) and (max-width: 1205px) {
     #verticalnav { display: none;  }
   }
+
+
+
+
+
+
+
 
 
