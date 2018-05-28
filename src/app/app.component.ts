@@ -52,32 +52,6 @@ export class AppComponent implements OnInit  {
 //           $('html,body').scrollTop(divs.eq(div).offset().top);
 //       });
 //   });
-  $(document).ready(function() {
-  // INITIATE THE FOOTER
-  siteFooter();
-  // COULD BE SIMPLIFIED FOR THIS PEN BUT I WANT TO MAKE IT AS EASY TO PUT INTO YOUR SITE AS POSSIBLE
-  $(window).resize(function() {
-    siteFooter();
-  });
-  function siteFooter() {
-    const siteContent = $('#site-content');
-    const siteContentHeight = siteContent.height();
-    const siteContentWidth = siteContent.width();
-
-    const sitefooter = $('#site-footer');
-    const siteFooterHeight = sitefooter.height();
-    const siteFooterWidth = sitefooter.width();
-
-    console.log('Content Height = ' + siteContentHeight + 'px');
-    console.log('Content Width = ' + siteContentWidth + 'px');
-    console.log('Footer Height = ' + siteFooterHeight + 'px');
-    console.log('Footer Width = ' + siteFooterWidth + 'px');
-
-    siteContent.css({
-      'margin-bottom' : siteFooterHeight
-    });
-  }
-});
 
   }
 
