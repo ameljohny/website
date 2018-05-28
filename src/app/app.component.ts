@@ -1,5 +1,6 @@
 
 import { Component, Input, OnInit} from '@angular/core';
+
 import { timeout } from 'q';
 import { RouterModule } from '@angular/router';
 declare var $: any;

@@ -10,6 +10,15 @@ export class AccordionComponent implements OnInit {
 
   constructor() { }
 
+  // public scrollHorizontal() {
+  //   const pageScrollInstance: PageScrollInstance = PageScrollInstance.newInstance({
+  //     document: this.document,
+  //     scrollTarget: '#inHorizontalContainer',
+  //     scrollingViews: [this.container.nativeElement],
+  //     verticalScrolling: false
+  //   });
+  //   this.pageScrollService.start(pageScrollInstance);
+  // }
   ngOnInit() {
     const header = document.getElementById('accordion');
     const tabs = header.getElementsByClassName('tabs');

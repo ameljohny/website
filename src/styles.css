@@ -4,6 +4,8 @@ html{
 }
 
 body{
+    
+  background-color: #15151e;
   font-family: Jura;
   height: 100%;
   background-position: center;
@@ -42,3 +44,7 @@ body{
 .flip-clock-wrapper {
     position: relative;
     }
+p{
+    text-align: justify;
+    text-justify: inter-word;
+}
