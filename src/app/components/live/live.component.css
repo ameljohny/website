@@ -255,7 +255,8 @@ app-counter{
 }
 .counterdiv{
   width:100%;
-  background-image: url('/assets/water.gif');
+  /* background-image: url('/assets/water.gif'); */
+  background: linear-gradient(-45deg, #185a9d, #43cea2);
   height:200px;
   text-align: center;
   background-size:cover;
